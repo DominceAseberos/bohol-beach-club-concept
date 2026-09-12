@@ -1,0 +1,19 @@
+{
+  "id": "export_f1pez2",
+  "prospectId": "bohol-beach-club",
+  "createdAt": "2026-09-11T21:05:28.438Z",
+  "relativePath": "bohol-beach-club/exports/export_f1pez2",
+  "files": [
+    "resort.json",
+    "brand.json",
+    "rooms.json",
+    "amenities.json",
+    "map.json",
+    "scenes.json",
+    "assets.json",
+    "evidence.json",
+    "proposal.json",
+    "discovery.json",
+    "manifest.json"
+  ]
+}

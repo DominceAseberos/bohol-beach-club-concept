@@ -1,0 +1,74 @@
+{
+  "prospectId": "bohol-beach-club",
+  "sourceWebsite": "https://www.boholbeachclub.com.ph/",
+  "assets": [
+    {
+      "id": "asset_1qu1un1",
+      "url": "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770",
+      "kind": "icon",
+      "mime": null,
+      "width": null,
+      "height": null,
+      "alt": "Site icon",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": null,
+      "discoveredAt": "2026-09-11T12:11:59.236Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_gvjxhy",
+      "url": "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 94,
+      "height": 58,
+      "alt": "",
+      "category": "branding",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 5442,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    }
+  ]
+}

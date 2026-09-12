@@ -1,0 +1,71 @@
+{
+  "prospectId": "bohol-beach-club",
+  "scenes": [
+    {
+      "id": "scene_133k1p1",
+      "title": "Dining scene",
+      "category": "dining",
+      "pageIds": [
+        "page_1h65u0z"
+      ],
+      "assetIds": [
+        "asset_nr3qc2",
+        "asset_zrwo6z",
+        "asset_10ya5cx",
+        "asset_1528dei",
+        "asset_7w186f",
+        "asset_1xvy12w",
+        "asset_9etli4",
+        "asset_11mtxdf"
+      ],
+      "confidence": "AREA_VERIFIED",
+      "rationale": "8 discovered image assets support a dining prototype scene; exact spatial layout still requires human review."
+    },
+    {
+      "id": "scene_1lmga35",
+      "title": "Spa scene",
+      "category": "spa",
+      "pageIds": [
+        "page_1nkutru"
+      ],
+      "assetIds": [
+        "asset_15anhbv"
+      ],
+      "confidence": "INFERRED",
+      "rationale": "1 discovered image asset support a spa prototype scene; exact spatial layout still requires human review."
+    },
+    {
+      "id": "scene_fdkwoa",
+      "title": "Pool scene",
+      "category": "pool",
+      "pageIds": [
+        "page_1nkutru"
+      ],
+      "assetIds": [
+        "asset_1iy4p23"
+      ],
+      "confidence": "INFERRED",
+      "rationale": "1 discovered image asset support a pool prototype scene; exact spatial layout still requires human review."
+    },
+    {
+      "id": "scene_156svmk",
+      "title": "Rooms scene",
+      "category": "rooms",
+      "pageIds": [
+        "page_1ovd307"
+      ],
+      "assetIds": [
+        "asset_7wulka",
+        "asset_le75bn",
+        "asset_qn07vo",
+        "asset_an8756",
+        "asset_tddtgk",
+        "asset_6ohkrw",
+        "asset_1gnmrb6",
+        "asset_1pjoh61"
+      ],
+      "confidence": "AREA_VERIFIED",
+      "rationale": "8 discovered image assets support a rooms prototype scene; exact spatial layout still requires human review."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "prospectId": "bohol-beach-club",
+  "geography": {
+    "selectedCandidateId": null,
+    "candidates": [
+      {
+        "id": "loc_1a86m5e",
+        "source": "address",
+        "label": "Published contact address",
+        "latitude": null,
+        "longitude": null,
+        "address": "Bo. Bolod, Island of Panglao Bohol, Philippines 6340",
+        "confidence": "INFERRED",
+        "sourcePageId": "page_bv7faz",
+        "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+        "note": "Address-like text was published on the website. Coordinates are intentionally left unset until geocoded or manually verified."
+      }
+    ],
+    "nearbyGeoJson": null,
+    "updatedAt": "2026-09-11T21:05:28.014Z"
+  }
+}

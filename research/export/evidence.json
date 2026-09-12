@@ -1,0 +1,1285 @@
+{
+  "prospectId": "bohol-beach-club",
+  "evidence": [
+    {
+      "id": "evidence_1lnjnny",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | HOME",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/",
+      "pageId": "page_trhfao",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:08.947Z"
+    },
+    {
+      "id": "evidence_1hztcx5",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | HOME",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html",
+      "pageId": "page_1t18qj",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:12.575Z"
+    },
+    {
+      "id": "evidence_184q668",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | ROOMS",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html",
+      "pageId": "page_1ovd307",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.709Z"
+    },
+    {
+      "id": "evidence_1b1cy3b",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | FOOD",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html",
+      "pageId": "page_1h65u0z",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_1l8fijv",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | AQUASPORTS",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "pageId": "page_tkkgqy",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:28.083Z"
+    },
+    {
+      "id": "evidence_nbrrtq",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | TOURS & TRANSPORTATION",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html",
+      "pageId": "page_1ed430q",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.317Z"
+    },
+    {
+      "id": "evidence_38h0mj",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | EVENTS",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "pageId": "page_66b51k",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:41.374Z"
+    },
+    {
+      "id": "evidence_18lnof2",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | RATES",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "pageId": "page_1nkutru",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.777Z"
+    },
+    {
+      "id": "evidence_toe31s",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | CONTACT US",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+      "pageId": "page_bv7faz",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:51.522Z"
+    },
+    {
+      "id": "evidence_q2tb3y",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | FEEDBACK",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html",
+      "pageId": "page_1mralra",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.801Z"
+    },
+    {
+      "id": "evidence_szpoa2",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | RESERVATION",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html",
+      "pageId": "page_352iil",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:05:24.053Z"
+    },
+    {
+      "id": "evidence_b0n8k4",
+      "kind": "page",
+      "claim": "Crawled public page: Bohol Beach Club | Bohol Beach Break 2.6",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html",
+      "pageId": "page_s9238w",
+      "assetId": null,
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:05:27.954Z"
+    },
+    {
+      "id": "evidence_1y0wbd5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://book.securebookings.net/img/img_loading.gif",
+      "pageId": "page_352iil",
+      "assetId": "asset_1x1u9w8",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:05:24.050Z"
+    },
+    {
+      "id": "evidence_2vekrr",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://i.ytimg.com/vi/y1x-oKYCStw/default.jpg?rs=AOn4CLBrgK3tJT9XhNRc3tgitp373AsdTg&sqp=-oaymwEkCHgQWvKriqkDGvABAfgB_gmAAtAFigIMCAAQARgoIGYocjAP",
+      "pageId": "page_trhfao",
+      "assetId": "asset_e8et3d",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:08.940Z"
+    },
+    {
+      "id": "evidence_18ovcjx",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://i.ytimg.com/vi/y1x-oKYCStw/maxresdefault.jpg?rs=AOn4CLD3P-AjV05RguR9g90aZrudyHCfCg&sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZihyMA8%3D",
+      "pageId": "page_trhfao",
+      "assetId": "asset_17rluci",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:08.945Z"
+    },
+    {
+      "id": "evidence_1hyw7gv",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://s3-cdn.hotellinksolutions.com/hbe/resource/css/imgs/select-dropdown-icon.png",
+      "pageId": "page_352iil",
+      "assetId": "asset_101jcv",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:05:24.052Z"
+    },
+    {
+      "id": "evidence_u7vl6e",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-01.jpg",
+      "pageId": "page_tkkgqy",
+      "assetId": "asset_hjfsdi",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T12:08:41.968Z"
+    },
+    {
+      "id": "evidence_1jgv1jy",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-02.jpg",
+      "pageId": "page_tkkgqy",
+      "assetId": "asset_2zd5ov",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:20.724Z"
+    },
+    {
+      "id": "evidence_e1407l",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-03.jpg",
+      "pageId": "page_tkkgqy",
+      "assetId": "asset_1gm3p0g",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:20.724Z"
+    },
+    {
+      "id": "evidence_1hxa257",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-01.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1s154x3",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.758Z"
+    },
+    {
+      "id": "evidence_1tyqmsu",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-02.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1enm71a",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.758Z"
+    },
+    {
+      "id": "evidence_in925i",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-03.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_syh8a5",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.758Z"
+    },
+    {
+      "id": "evidence_1qqtfmm",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-04.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1sxhbyc",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.759Z"
+    },
+    {
+      "id": "evidence_1j7ywvz",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-05.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1nom1sj",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.759Z"
+    },
+    {
+      "id": "evidence_1qdez91",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-06.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_13dj096",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.759Z"
+    },
+    {
+      "id": "evidence_9lqpmu",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-07.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_158h9kp",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.759Z"
+    },
+    {
+      "id": "evidence_ux5jfp",
+      "kind": "asset",
+      "claim": "Discovered video asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.mp4",
+      "pageId": "page_trhfao",
+      "assetId": "asset_1j0ac00",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:12.567Z"
+    },
+    {
+      "id": "evidence_1b7qzgq",
+      "kind": "asset",
+      "claim": "Discovered video asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.webm",
+      "pageId": "page_trhfao",
+      "assetId": "asset_1olf78w",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T12:11:59.236Z"
+    },
+    {
+      "id": "evidence_dx1cx5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/budyong-8.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_tmtm2a",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.777Z"
+    },
+    {
+      "id": "evidence_1wi3uh5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/business-center-(3).jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_o3tz2i",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.777Z"
+    },
+    {
+      "id": "evidence_959adt",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/clinic.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1q8hz03",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.777Z"
+    },
+    {
+      "id": "evidence_8bw7j5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/contact-01.jpg",
+      "pageId": "page_bv7faz",
+      "assetId": "asset_k01q2b",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:29.302Z"
+    },
+    {
+      "id": "evidence_1p0hamt",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/contact-02.jpg",
+      "pageId": "page_bv7faz",
+      "assetId": "asset_6ip6ay",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:29.302Z"
+    },
+    {
+      "id": "evidence_1eg00cd",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/contact-03.jpg",
+      "pageId": "page_bv7faz",
+      "assetId": "asset_1cxu55",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:29.302Z"
+    },
+    {
+      "id": "evidence_1hlquv4",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/fitness-center-(3).jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_xzz9c0",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_1eavs4m",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-01.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_zrwo6z",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:19.621Z"
+    },
+    {
+      "id": "evidence_1sjlpit",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-02.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_nr3qc2",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:19.621Z"
+    },
+    {
+      "id": "evidence_14x1uzx",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-03.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_10ya5cx",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:19.621Z"
+    },
+    {
+      "id": "evidence_ncn2vf",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-01-pizza-de-pesto-con-pollo.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_7w186f",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_1lu1xay",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-02-pork-adobo-burger.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_1528dei",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_f6vqgs",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-03-gambas-al-ajilo.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_jyfj0s",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.195Z"
+    },
+    {
+      "id": "evidence_xw29uc",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-04-sauteed-scallops-and-shrimps.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_1xvy12w",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_sh9g8r",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-05-spagetti-bolognaise-and-spaghetti-carbonara.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_9etli4",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_1aqwv7",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-06-french-macarons.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_11mtxdf",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_pv1s54",
+      "kind": "asset",
+      "claim": "Discovered image asset (dining)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-07-sikad.jpg",
+      "pageId": "page_1h65u0z",
+      "assetId": "asset_atqtpt",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:24.196Z"
+    },
+    {
+      "id": "evidence_3jt62t",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-01.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1kb9gfk",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.378Z"
+    },
+    {
+      "id": "evidence_1lgn4bv",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-02.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1d13yp1",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.379Z"
+    },
+    {
+      "id": "evidence_ijvgq1",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-03.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_18lr7zq",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.379Z"
+    },
+    {
+      "id": "evidence_1630r36",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-01.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_w5r6mm",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_1aw0yag",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-02.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_y0hkrb",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:41.373Z"
+    },
+    {
+      "id": "evidence_17tc0bq",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-03.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_ustbew",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:41.373Z"
+    },
+    {
+      "id": "evidence_2cpzrk",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-01.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1quqmxa",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_1hgtan4",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-02.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1sph11z",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_r2b00f",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-03.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1x77adk",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_leuj5g",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-04.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1i4cu95",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_rrlxa3",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-01.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_16j9oll",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_ng1wd1",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-02.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_aydal0",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_1s4fl4e",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-03.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_6hrsv7",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_1hsw70c",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-04.jpg",
+      "pageId": "page_66b51k",
+      "assetId": "asset_1fyem26",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:25.382Z"
+    },
+    {
+      "id": "evidence_3iupgn",
+      "kind": "asset",
+      "claim": "Discovered image asset (spa)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/massage-6.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_15anhbv",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.777Z"
+    },
+    {
+      "id": "evidence_1vg5mqq",
+      "kind": "asset",
+      "claim": "Discovered image asset (pool)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/pool-1.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1iy4p23",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_1is7657",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-012.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_13dqiru",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.258Z"
+    },
+    {
+      "id": "evidence_6nxyjm",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-022.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1x77r1x",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.258Z"
+    },
+    {
+      "id": "evidence_15ecg6f",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-032.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1babn8c",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.258Z"
+    },
+    {
+      "id": "evidence_msqru2",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-042.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_p6pb8f",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.258Z"
+    },
+    {
+      "id": "evidence_1m5d5e5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-052.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_pn350m",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.258Z"
+    },
+    {
+      "id": "evidence_1k7f8sz",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-01.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_17gor0m",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.799Z"
+    },
+    {
+      "id": "evidence_1iwi0zg",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-02.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_zqcm3z",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_1mg4u2r",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-03.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_6mid6o",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.799Z"
+    },
+    {
+      "id": "evidence_19usic2",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-04.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_a024ap",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.799Z"
+    },
+    {
+      "id": "evidence_1epoqy9",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-05.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1wiqw1e",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_5p5esn",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-06.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_eyo04b",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.799Z"
+    },
+    {
+      "id": "evidence_s9rwq3",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-07.jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1v5t0to",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_ar8dod",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-08.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_5tsgzx",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.799Z"
+    },
+    {
+      "id": "evidence_pt93g2",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-image01.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_zbjjxj",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:30.804Z"
+    },
+    {
+      "id": "evidence_j08n8q",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-image02.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_ly0m1q",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:30.804Z"
+    },
+    {
+      "id": "evidence_tz3k3h",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/rates-image03.jpg",
+      "pageId": "page_1mralra",
+      "assetId": "asset_8vnal",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:30.804Z"
+    },
+    {
+      "id": "evidence_hquqyr",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-01.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_7wulka",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:18.130Z"
+    },
+    {
+      "id": "evidence_4rqkur",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-02.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_le75bn",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:18.130Z"
+    },
+    {
+      "id": "evidence_1xou615",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-03.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_qn07vo",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:18.130Z"
+    },
+    {
+      "id": "evidence_18y858l",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-012.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1mlqi3r",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_332tr",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-022.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_l6f2xs",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_fo3xsf",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-032.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1w4yxy1",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_xfz78h",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-04.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_an8756",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_umjkh6",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-052.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_4bmo17",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_tqxlsu",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-06.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_tddtgk",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_p2nvo0",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-072.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_ja4rct",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_14mvzq6",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-012.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1y3ytlt",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_72jp0",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-022.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_2sjmye",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_1pek0sq",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-032.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_9ct71r",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_1tn55gp",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-042.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_6ohkrw",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_vn6mqh",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-012.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_ydawus",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_z5hdka",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-022.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1ivunsr",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_bzywm1",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-032.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1gnmrb6",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_12e0m67",
+      "kind": "asset",
+      "claim": "Discovered image asset (rooms)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-042.jpg",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1pjoh61",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.708Z"
+    },
+    {
+      "id": "evidence_qtx762",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/souvenir-shop-(1).jpg",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_txn6v8",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:27.259Z"
+    },
+    {
+      "id": "evidence_1qsh0mp",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/tour-01.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_79d8j1",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_1rg2d7k",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/tour-02.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_buaivs",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_16fb8ot",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/assets/tour-03.jpg",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_16c155z",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_12rl5ui",
+      "kind": "asset",
+      "claim": "Discovered icon asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770",
+      "pageId": "page_trhfao",
+      "assetId": "asset_1qu1un1",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T12:11:59.236Z"
+    },
+    {
+      "id": "evidence_shzlsp",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/airport-01.jpg?crc=3975243377",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_wpjxbr",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.758Z"
+    },
+    {
+      "id": "evidence_11fpjim",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/amenities-bed.png?crc=284272438",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_15rdqmh",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.707Z"
+    },
+    {
+      "id": "evidence_88f5ta",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/amenities-toiletries.png?crc=88577800",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_ihq79r",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.707Z"
+    },
+    {
+      "id": "evidence_e4qdyb",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/amenities-tv.png?crc=139872463",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_25nawl",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.707Z"
+    },
+    {
+      "id": "evidence_7df909",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1u780ow",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_xn5rhs",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/blank.gif?crc=4208392903",
+      "pageId": "page_trhfao",
+      "assetId": "asset_1kmbzr3",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T12:11:59.236Z"
+    },
+    {
+      "id": "evidence_123b9nt",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/icon-fb-u14971.png?crc=4123443213",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1n4ef85",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_12vfm1o",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/icon-fb-u15553.png?crc=3775442482",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1vlbc15",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.757Z"
+    },
+    {
+      "id": "evidence_1w54bb3",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/icon-insta-u14973.png?crc=339129577",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_kj14ej",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.796Z"
+    },
+    {
+      "id": "evidence_15akzjd",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/icon-insta-u15551.png?crc=3768402069",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1f27alr",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.757Z"
+    },
+    {
+      "id": "evidence_d831pg",
+      "kind": "asset",
+      "claim": "Discovered image asset (branding)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_gvjxhy",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.756Z"
+    },
+    {
+      "id": "evidence_1cclk74",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/menu-bground2.jpg?crc=3907143127",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_kz9682",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T13:19:23.758Z"
+    },
+    {
+      "id": "evidence_1dz4uvr",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/rates-beachview.jpg?crc=509478731",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_1p4iywk",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.773Z"
+    },
+    {
+      "id": "evidence_rw0yzn",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/rates-deluxegreen.jpg?crc=4107541675",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_11z2yww",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.772Z"
+    },
+    {
+      "id": "evidence_l3vm1t",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/rates-deluxeroom.jpg?crc=141386584",
+      "pageId": "page_1nkutru",
+      "assetId": "asset_vl6lja",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:46.772Z"
+    },
+    {
+      "id": "evidence_k55yvp",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/rooms-features-easyaccess.png?crc=305517779",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_1ij2jqh",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.707Z"
+    },
+    {
+      "id": "evidence_1haw088",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/rooms-features-petfriendly.png?crc=3838483282",
+      "pageId": "page_1ovd307",
+      "assetId": "asset_y3byhs",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:20.707Z"
+    },
+    {
+      "id": "evidence_1672j57",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-baclayonchurch.png?crc=3885065592",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_15mf4om",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.299Z"
+    },
+    {
+      "id": "evidence_1sn6i6q",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-bilarforest.png?crc=3802093385",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_4qzcdz",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.300Z"
+    },
+    {
+      "id": "evidence_1vnzyc4",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-bloodcompact.png?crc=121392656",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_13hqb3h",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.299Z"
+    },
+    {
+      "id": "evidence_1stfs41",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-chocolatehills.png?crc=4020395871",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1yht9we",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.300Z"
+    },
+    {
+      "id": "evidence_1jzpvjt",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-lobocriver.png?crc=176017124",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_2p0jih",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.300Z"
+    },
+    {
+      "id": "evidence_1bhb10d",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/tour-tarsier.png?crc=3817045221",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_1hhciam",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:35.300Z"
+    },
+    {
+      "id": "evidence_vf88j5",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/images/two%20resorts%20tagline.png?crc=478664734",
+      "pageId": "page_1ed430q",
+      "assetId": "asset_11qa9tn",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:56.796Z"
+    },
+    {
+      "id": "evidence_khajsa",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.youtube.com/generate_204?eh4nKQ=",
+      "pageId": "page_trhfao",
+      "assetId": "asset_i1z4zl",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:08.940Z"
+    },
+    {
+      "id": "evidence_s7ma2x",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.youtube.com/generate_204?i92KmQ=",
+      "pageId": "page_trhfao",
+      "assetId": "asset_w0zix9",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:08.946Z"
+    },
+    {
+      "id": "evidence_1crvzl9",
+      "kind": "asset",
+      "claim": "Discovered image asset (misc)",
+      "sourceUrl": "https://www.youtube.com/generate_204?ML3Pvw=",
+      "pageId": "page_1t18qj",
+      "assetId": "asset_1raq75j",
+      "confidence": "VERIFIED",
+      "capturedAt": "2026-09-11T21:04:12.574Z"
+    },
+    {
+      "id": "evidence_sbu3le",
+      "kind": "location",
+      "claim": "Published contact address: ?, ? — Bo. Bolod, Island of Panglao Bohol, Philippines 6340",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+      "pageId": "page_bv7faz",
+      "assetId": null,
+      "confidence": "INFERRED",
+      "capturedAt": "2026-09-11T21:05:28.016Z"
+    }
+  ]
+}

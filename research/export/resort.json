@@ -1,0 +1,32 @@
+{
+  "prospect": {
+    "id": "bohol-beach-club",
+    "name": "Bohol Beach Club",
+    "website": "https://www.boholbeachclub.com.ph/",
+    "createdAt": "2026-09-11T11:01:26.966Z",
+    "updatedAt": "2026-09-11T21:05:28.020Z",
+    "crawlStatus": "COMPLETE",
+    "lastCrawledAt": "2026-09-11T21:05:28.020Z",
+    "notes": ""
+  },
+  "summary": {
+    "prospect": {
+      "id": "bohol-beach-club",
+      "name": "Bohol Beach Club",
+      "website": "https://www.boholbeachclub.com.ph/",
+      "createdAt": "2026-09-11T11:01:26.966Z",
+      "updatedAt": "2026-09-11T21:05:28.020Z",
+      "crawlStatus": "COMPLETE",
+      "lastCrawledAt": "2026-09-11T21:05:28.020Z",
+      "notes": ""
+    },
+    "pages": 12,
+    "assets": 115,
+    "downloadedAssets": 1,
+    "images": 112,
+    "videos": 2,
+    "locationCandidates": 1,
+    "selectedLocation": null
+  },
+  "selectedLocation": null
+}

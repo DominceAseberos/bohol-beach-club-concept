@@ -1,0 +1,287 @@
+{
+  "prospectId": "bohol-beach-club",
+  "generatedAt": "2026-09-11T21:05:28.438Z",
+  "opportunityScore": 92,
+  "booking": {
+    "detected": true,
+    "urls": [
+      "https://www.boholbeachclub.com.ph/reservation.html",
+      "https://www.boholbeachclub.com.ph/",
+      "https://www.boholbeachclub.com.ph/index.html",
+      "https://www.boholbeachclub.com.ph/rooms.html",
+      "https://www.boholbeachclub.com.ph/food.html",
+      "https://www.boholbeachclub.com.ph/aquasports.html",
+      "https://www.boholbeachclub.com.ph/events.html",
+      "https://www.boholbeachclub.com.ph/rates.html",
+      "https://www.boholbeachclub.com.ph/contact.html",
+      "https://www.boholbeachclub.com.ph/feedback.html",
+      "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html"
+    ],
+    "providers": [
+      "boholbeachclub.com.ph"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "reservations@boholbeachclub.com.ph",
+      "manila.sales1@boholbeachclub.com.ph",
+      "fandb.coordinator@boholbeachclub.com.ph",
+      "guestexperience@boholbeachclub.com.ph",
+      "hrd@boholbeachclub.com.ph",
+      "hrd2@boholbeachclub.com.ph",
+      "gm@boholbeachclub.com.ph"
+    ],
+    "phones": [
+      "0-927-452-7054",
+      "0-999-992-1880"
+    ],
+    "addresses": [
+      "Bo. Bolod, Island of Panglao Bohol, Philippines 6340"
+    ]
+  },
+  "audit": [
+    {
+      "id": "audit_h9y83q",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/"
+    },
+    {
+      "id": "audit_iflfxi",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/"
+    },
+    {
+      "id": "audit_n9gzm4",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html"
+    },
+    {
+      "id": "audit_1abom5o",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html"
+    },
+    {
+      "id": "audit_194hwb1",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html"
+    },
+    {
+      "id": "audit_ivhfsd",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html"
+    },
+    {
+      "id": "audit_ej4b8q",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1h65u0z",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html"
+    },
+    {
+      "id": "audit_wg2wy2",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1h65u0z",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html"
+    },
+    {
+      "id": "audit_16q5s6x",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html"
+    },
+    {
+      "id": "audit_1ccv9w9",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html"
+    },
+    {
+      "id": "audit_1drduae",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html"
+    },
+    {
+      "id": "audit_bdwsqe",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html"
+    },
+    {
+      "id": "audit_cwx37n",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html"
+    },
+    {
+      "id": "audit_lc95yb",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html"
+    },
+    {
+      "id": "audit_1fbjuvq",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html"
+    },
+    {
+      "id": "audit_1n6tieu",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html"
+    },
+    {
+      "id": "audit_63pnlv",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_bv7faz",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html"
+    },
+    {
+      "id": "audit_1bzqvfn",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_bv7faz",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html"
+    },
+    {
+      "id": "audit_lxw0fy",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_1mralra",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html"
+    },
+    {
+      "id": "audit_1nae9su",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_1mralra",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html"
+    },
+    {
+      "id": "audit_14vkdkn",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_352iil",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html"
+    },
+    {
+      "id": "audit_4fcw47",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_352iil",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html"
+    },
+    {
+      "id": "audit_f9457s",
+      "category": "SEO",
+      "severity": "LOW",
+      "title": "Missing canonical URL",
+      "detail": "No canonical link was extracted for this page.",
+      "pageId": "page_s9238w",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html"
+    },
+    {
+      "id": "audit_1sfcsi0",
+      "category": "ACCESSIBILITY",
+      "severity": "LOW",
+      "title": "No H1 detected",
+      "detail": "The rendered main content did not expose an H1 heading.",
+      "pageId": "page_s9238w",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html"
+    },
+    {
+      "id": "audit_1ffwfg4",
+      "category": "SEO",
+      "severity": "MEDIUM",
+      "title": "Duplicate page titles",
+      "detail": "2 pages use the same title: bohol beach club | home.",
+      "pageId": null,
+      "sourceUrl": null
+    },
+    {
+      "id": "audit_ouquui",
+      "category": "ACCESSIBILITY",
+      "severity": "MEDIUM",
+      "title": "Images missing alternative text",
+      "detail": "86 discovered image assets have no extracted alt text.",
+      "pageId": null,
+      "sourceUrl": null
+    }
+  ],
+  "readiness": {
+    "pages": 12,
+    "images": 112,
+    "downloadedAssets": 1,
+    "locationSelected": false,
+    "roomCandidates": 13,
+    "amenityCandidates": 48,
+    "sceneCandidates": 4
+  }
+}

@@ -1,0 +1,2888 @@
+{
+  "prospectId": "bohol-beach-club",
+  "assets": [
+    {
+      "id": "asset_1x1u9w8",
+      "url": "https://book.securebookings.net/img/img_loading.gif",
+      "kind": "image",
+      "mime": "image/gif",
+      "width": 32,
+      "height": 32,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://book.securebookings.net/img/img_loading.gif",
+      "variants": [
+        "https://book.securebookings.net/img/img_loading.gif"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 3208,
+      "discoveredAt": "2026-09-11T21:05:24.050Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_e8et3d",
+      "url": "https://i.ytimg.com/vi/y1x-oKYCStw/default.jpg?rs=AOn4CLBrgK3tJT9XhNRc3tgitp373AsdTg&sqp=-oaymwEkCHgQWvKriqkDGvABAfgB_gmAAtAFigIMCAAQARgoIGYocjAP",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://i.ytimg.com/vi/y1x-oKYCStw/default.jpg?rs=AOn4CLBrgK3tJT9XhNRc3tgitp373AsdTg&sqp=-oaymwEkCHgQWvKriqkDGvABAfgB_gmAAtAFigIMCAAQARgoIGYocjAP",
+      "variants": [
+        "https://i.ytimg.com/vi/y1x-oKYCStw/default.jpg?rs=AOn4CLBrgK3tJT9XhNRc3tgitp373AsdTg&sqp=-oaymwEkCHgQWvKriqkDGvABAfgB_gmAAtAFigIMCAAQARgoIGYocjAP"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 2224,
+      "discoveredAt": "2026-09-11T21:04:08.940Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_17rluci",
+      "url": "https://i.ytimg.com/vi/y1x-oKYCStw/maxresdefault.jpg?rs=AOn4CLD3P-AjV05RguR9g90aZrudyHCfCg&sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZihyMA8%3D",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://i.ytimg.com/vi/y1x-oKYCStw/maxresdefault.jpg?rs=AOn4CLD3P-AjV05RguR9g90aZrudyHCfCg&sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZihyMA8%3D",
+      "variants": [
+        "https://i.ytimg.com/vi/y1x-oKYCStw/maxresdefault.jpg?rs=AOn4CLD3P-AjV05RguR9g90aZrudyHCfCg&sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZihyMA8%3D"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 89949,
+      "discoveredAt": "2026-09-11T21:04:08.945Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_101jcv",
+      "url": "https://s3-cdn.hotellinksolutions.com/hbe/resource/css/imgs/select-dropdown-icon.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://s3-cdn.hotellinksolutions.com/hbe/resource/css/imgs/select-dropdown-icon.png",
+      "variants": [
+        "https://s3-cdn.hotellinksolutions.com/hbe/resource/css/imgs/select-dropdown-icon.png"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 2927,
+      "discoveredAt": "2026-09-11T21:05:24.052Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_hjfsdi",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1103,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_tkkgqy"
+      ],
+      "status": "DOWNLOADED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-01.jpg"
+      ],
+      "downloadPath": "bohol-beach-club/assets/downloaded/misc/asset_hjfsdi-aquasports-01.jpg",
+      "sha256": "a29ba1cf1410416250f9ac766b27dcba974a9341d6ada8d6392a31550007f880",
+      "bytes": 359325,
+      "discoveredAt": "2026-09-11T12:08:41.968Z",
+      "downloadedAt": "2026-09-11T12:11:49.541Z"
+    },
+    {
+      "id": "asset_2zd5ov",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1307,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 524778,
+      "discoveredAt": "2026-09-11T13:19:20.724Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1gm3p0g",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1515,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 352390,
+      "discoveredAt": "2026-09-11T13:19:20.724Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1s154x3",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 418645,
+      "discoveredAt": "2026-09-11T13:19:23.758Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1enm71a",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 406341,
+      "discoveredAt": "2026-09-11T13:19:23.758Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_syh8a5",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 389944,
+      "discoveredAt": "2026-09-11T13:19:23.758Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1sxhbyc",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-04.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-04.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-04.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 487163,
+      "discoveredAt": "2026-09-11T13:19:23.759Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1nom1sj",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-05.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-05.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-05.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 167085,
+      "discoveredAt": "2026-09-11T13:19:23.759Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_13dj096",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-06.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-06.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-06.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 511625,
+      "discoveredAt": "2026-09-11T13:19:23.759Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_158h9kp",
+      "url": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-07.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_tkkgqy"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-07.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/aquasports-gallery-07.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 346917,
+      "discoveredAt": "2026-09-11T13:19:23.759Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1j0ac00",
+      "url": "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 1280,
+      "height": 720,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": null,
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.mp4"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 21929319,
+      "discoveredAt": "2026-09-11T21:04:12.567Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1olf78w",
+      "url": "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.webm",
+      "kind": "video",
+      "mime": null,
+      "width": 1280,
+      "height": 720,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": null,
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.webm"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": null,
+      "discoveredAt": "2026-09-11T12:11:59.236Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_tmtm2a",
+      "url": "https://www.boholbeachclub.com.ph/assets/budyong-8.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/budyong-8.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/budyong-8.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1068914,
+      "discoveredAt": "2026-09-11T21:04:46.777Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_o3tz2i",
+      "url": "https://www.boholbeachclub.com.ph/assets/business-center-(3).jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/business-center-(3).jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/business-center-(3).jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 812239,
+      "discoveredAt": "2026-09-11T21:04:46.777Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1q8hz03",
+      "url": "https://www.boholbeachclub.com.ph/assets/clinic.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/clinic.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/clinic.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 427922,
+      "discoveredAt": "2026-09-11T21:04:46.777Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_k01q2b",
+      "url": "https://www.boholbeachclub.com.ph/assets/contact-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1080,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_bv7faz"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/contact-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/contact-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 753179,
+      "discoveredAt": "2026-09-11T13:19:29.302Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_6ip6ay",
+      "url": "https://www.boholbeachclub.com.ph/assets/contact-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1470,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_bv7faz"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/contact-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/contact-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 348640,
+      "discoveredAt": "2026-09-11T13:19:29.302Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1cxu55",
+      "url": "https://www.boholbeachclub.com.ph/assets/contact-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1101,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_bv7faz"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/contact-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/contact-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 550408,
+      "discoveredAt": "2026-09-11T13:19:29.302Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_xzz9c0",
+      "url": "https://www.boholbeachclub.com.ph/assets/fitness-center-(3).jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/fitness-center-(3).jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/fitness-center-(3).jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 711469,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_zrwo6z",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1304,
+      "alt": "caption",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 154445,
+      "discoveredAt": "2026-09-11T13:19:19.621Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_nr3qc2",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1308,
+      "alt": "caption",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 320771,
+      "discoveredAt": "2026-09-11T13:19:19.621Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_10ya5cx",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1304,
+      "alt": "caption",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 298610,
+      "discoveredAt": "2026-09-11T13:19:19.621Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_7w186f",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-01-pizza-de-pesto-con-pollo.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-01-pizza-de-pesto-con-pollo.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-01-pizza-de-pesto-con-pollo.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 114348,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1528dei",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-02-pork-adobo-burger.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-02-pork-adobo-burger.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-02-pork-adobo-burger.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 118570,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_jyfj0s",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-03-gambas-al-ajilo.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-03-gambas-al-ajilo.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-03-gambas-al-ajilo.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 65224,
+      "discoveredAt": "2026-09-11T21:04:24.195Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1xvy12w",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-04-sauteed-scallops-and-shrimps.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-04-sauteed-scallops-and-shrimps.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-04-sauteed-scallops-and-shrimps.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 107953,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_9etli4",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-05-spagetti-bolognaise-and-spaghetti-carbonara.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-05-spagetti-bolognaise-and-spaghetti-carbonara.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-05-spagetti-bolognaise-and-spaghetti-carbonara.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 107274,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_11mtxdf",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-06-french-macarons.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-06-french-macarons.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-06-french-macarons.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 75234,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_atqtpt",
+      "url": "https://www.boholbeachclub.com.ph/assets/food-gallery-07-sikad.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "dining",
+      "foundOn": [
+        "page_1h65u0z"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/food-gallery-07-sikad.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/food-gallery-07-sikad.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 72196,
+      "discoveredAt": "2026-09-11T21:04:24.196Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1kb9gfk",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1268,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 679274,
+      "discoveredAt": "2026-09-11T13:19:25.378Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1d13yp1",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1103,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 653356,
+      "discoveredAt": "2026-09-11T13:19:25.379Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_18lr7zq",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1308,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 715186,
+      "discoveredAt": "2026-09-11T13:19:25.379Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_w5r6mm",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-boardroom-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 329671,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_y0hkrb",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-boardroom-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 262975,
+      "discoveredAt": "2026-09-11T21:04:41.373Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_ustbew",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-boardroom-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-boardroom-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 647461,
+      "discoveredAt": "2026-09-11T21:04:41.373Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1quqmxa",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-courtyard-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 601764,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1sph11z",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-courtyard-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 653356,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1x77adk",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-courtyard-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 549541,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1i4cu95",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-04.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-courtyard-04.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-courtyard-04.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 825596,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_16j9oll",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-taclobo-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 444168,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_aydal0",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-taclobo-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 409832,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_6hrsv7",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-taclobo-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 395215,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1fyem26",
+      "url": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-04.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_66b51k"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/functions-taclobo-04.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/functions-taclobo-04.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 449107,
+      "discoveredAt": "2026-09-11T13:19:25.382Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_15anhbv",
+      "url": "https://www.boholbeachclub.com.ph/assets/massage-6.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "spa",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/massage-6.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/massage-6.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 917969,
+      "discoveredAt": "2026-09-11T21:04:46.777Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1iy4p23",
+      "url": "https://www.boholbeachclub.com.ph/assets/pool-1.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "pool",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/pool-1.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/pool-1.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 2122584,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_13dqiru",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-012.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1117,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-012.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-012.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 714578,
+      "discoveredAt": "2026-09-11T13:19:27.258Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1x77r1x",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-022.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1184,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-022.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-022.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 316071,
+      "discoveredAt": "2026-09-11T13:19:27.258Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1babn8c",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-032.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1402,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-032.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-032.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 330286,
+      "discoveredAt": "2026-09-11T13:19:27.258Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_p6pb8f",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-042.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1402,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-042.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-042.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 382977,
+      "discoveredAt": "2026-09-11T13:19:27.258Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_pn350m",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-052.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1368,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-052.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-052.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 611364,
+      "discoveredAt": "2026-09-11T13:19:27.258Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_17gor0m",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 255601,
+      "discoveredAt": "2026-09-11T21:04:56.799Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_zqcm3z",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru",
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 201264,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_6mid6o",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 577439,
+      "discoveredAt": "2026-09-11T21:04:56.799Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_a024ap",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-04.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-04.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-04.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 280686,
+      "discoveredAt": "2026-09-11T21:04:56.799Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1wiqw1e",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-05.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru",
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-05.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-05.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 388641,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_eyo04b",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-06.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-06.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-06.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 188185,
+      "discoveredAt": "2026-09-11T21:04:56.799Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1v5t0to",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-07.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru",
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-07.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-07.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 503594,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_5tsgzx",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-facilities-08.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-facilities-08.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-facilities-08.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 190200,
+      "discoveredAt": "2026-09-11T21:04:56.799Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_zbjjxj",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-image01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1470,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-image01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-image01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1123570,
+      "discoveredAt": "2026-09-11T13:19:30.804Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_ly0m1q",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-image02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1308,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-image02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-image02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 873801,
+      "discoveredAt": "2026-09-11T13:19:30.804Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_8vnal",
+      "url": "https://www.boholbeachclub.com.ph/assets/rates-image03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1304,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/rates-image03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/rates-image03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 467997,
+      "discoveredAt": "2026-09-11T13:19:30.804Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_7wulka",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1307,
+      "alt": "caption",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 319675,
+      "discoveredAt": "2026-09-11T13:19:18.130Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_le75bn",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1307,
+      "alt": "caption",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 398164,
+      "discoveredAt": "2026-09-11T13:19:18.130Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_qn07vo",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1307,
+      "alt": "caption",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 348025,
+      "discoveredAt": "2026-09-11T13:19:18.130Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1mlqi3r",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-012.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-012.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-012.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 371637,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_l6f2xs",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-022.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-022.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-022.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 307340,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1w4yxy1",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-032.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-032.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-032.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 348104,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_an8756",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-04.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-04.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-04.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1677460,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_4bmo17",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-052.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-052.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-052.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 494929,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_tddtgk",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-06.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-06.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-06.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1181216,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_ja4rct",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-bv-072.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-bv-072.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-bv-072.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 679595,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1y3ytlt",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-dr-012.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-012.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-dr-012.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 274661,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_2sjmye",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-dr-022.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-022.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-dr-022.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 298359,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_9ct71r",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-dr-032.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-032.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-dr-032.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 319675,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_6ohkrw",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-dr-042.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-dr-042.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-dr-042.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 793275,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_ydawus",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-drg-012.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-012.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-drg-012.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 375291,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1ivunsr",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-drg-022.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-022.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-drg-022.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 398327,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1gnmrb6",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-drg-032.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-032.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-drg-032.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 718996,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1pjoh61",
+      "url": "https://www.boholbeachclub.com.ph/assets/room-drg-042.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "rooms",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/room-drg-042.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/room-drg-042.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 699850,
+      "discoveredAt": "2026-09-11T21:04:20.708Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_txn6v8",
+      "url": "https://www.boholbeachclub.com.ph/assets/souvenir-shop-(1).jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/souvenir-shop-(1).jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/souvenir-shop-(1).jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1273423,
+      "discoveredAt": "2026-09-11T13:19:27.259Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_79d8j1",
+      "url": "https://www.boholbeachclub.com.ph/assets/tour-01.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1308,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/tour-01.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/tour-01.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1819509,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_buaivs",
+      "url": "https://www.boholbeachclub.com.ph/assets/tour-02.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1298,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/tour-02.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/tour-02.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1194562,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_16c155z",
+      "url": "https://www.boholbeachclub.com.ph/assets/tour-03.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 1960,
+      "height": 1308,
+      "alt": "caption",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/assets/tour-03.jpg",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/assets/tour-03.jpg"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1661882,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1qu1un1",
+      "url": "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770",
+      "kind": "icon",
+      "mime": null,
+      "width": null,
+      "height": null,
+      "alt": "Site icon",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": null,
+      "discoveredAt": "2026-09-11T12:11:59.236Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_wpjxbr",
+      "url": "https://www.boholbeachclub.com.ph/images/airport-01.jpg?crc=3975243377",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/airport-01.jpg?crc=3975243377",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/airport-01.jpg?crc=3975243377"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 79509,
+      "discoveredAt": "2026-09-11T13:19:23.758Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_15rdqmh",
+      "url": "https://www.boholbeachclub.com.ph/images/amenities-bed.png?crc=284272438",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/amenities-bed.png?crc=284272438",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/amenities-bed.png?crc=284272438"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1667,
+      "discoveredAt": "2026-09-11T21:04:20.707Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_ihq79r",
+      "url": "https://www.boholbeachclub.com.ph/images/amenities-toiletries.png?crc=88577800",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/amenities-toiletries.png?crc=88577800",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/amenities-toiletries.png?crc=88577800"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 2515,
+      "discoveredAt": "2026-09-11T21:04:20.707Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_25nawl",
+      "url": "https://www.boholbeachclub.com.ph/images/amenities-tv.png?crc=139872463",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/amenities-tv.png?crc=139872463",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/amenities-tv.png?crc=139872463"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1434,
+      "discoveredAt": "2026-09-11T21:04:20.707Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1u780ow",
+      "url": "https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 267,
+      "height": 175,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 21605,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1kmbzr3",
+      "url": "https://www.boholbeachclub.com.ph/images/blank.gif?crc=4208392903",
+      "kind": "image",
+      "mime": "image/gif",
+      "width": 1,
+      "height": 1,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao",
+        "page_1t18qj",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/blank.gif?crc=4208392903",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/blank.gif?crc=4208392903"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 43,
+      "discoveredAt": "2026-09-11T12:11:59.236Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1n4ef85",
+      "url": "https://www.boholbeachclub.com.ph/images/icon-fb-u14971.png?crc=4123443213",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/icon-fb-u14971.png?crc=4123443213",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/icon-fb-u14971.png?crc=4123443213"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1825,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1vlbc15",
+      "url": "https://www.boholbeachclub.com.ph/images/icon-fb-u15553.png?crc=3775442482",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/icon-fb-u15553.png?crc=3775442482",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/icon-fb-u15553.png?crc=3775442482"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1211,
+      "discoveredAt": "2026-09-11T13:19:23.757Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_kj14ej",
+      "url": "https://www.boholbeachclub.com.ph/images/icon-insta-u14973.png?crc=339129577",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/icon-insta-u14973.png?crc=339129577",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/icon-insta-u14973.png?crc=339129577"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 2396,
+      "discoveredAt": "2026-09-11T21:04:56.796Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1f27alr",
+      "url": "https://www.boholbeachclub.com.ph/images/icon-insta-u15551.png?crc=3768402069",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/icon-insta-u15551.png?crc=3768402069",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/icon-insta-u15551.png?crc=3768402069"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 1580,
+      "discoveredAt": "2026-09-11T13:19:23.757Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_gvjxhy",
+      "url": "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 94,
+      "height": 58,
+      "alt": "",
+      "category": "branding",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 5442,
+      "discoveredAt": "2026-09-11T13:19:23.756Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_kz9682",
+      "url": "https://www.boholbeachclub.com.ph/images/menu-bground2.jpg?crc=3907143127",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_trhfao",
+        "page_1t18qj",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/menu-bground2.jpg?crc=3907143127",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/menu-bground2.jpg?crc=3907143127"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 521700,
+      "discoveredAt": "2026-09-11T13:19:23.758Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1p4iywk",
+      "url": "https://www.boholbeachclub.com.ph/images/rates-beachview.jpg?crc=509478731",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/rates-beachview.jpg?crc=509478731",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/rates-beachview.jpg?crc=509478731"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 137367,
+      "discoveredAt": "2026-09-11T21:04:46.773Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_11z2yww",
+      "url": "https://www.boholbeachclub.com.ph/images/rates-deluxegreen.jpg?crc=4107541675",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/rates-deluxegreen.jpg?crc=4107541675",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/rates-deluxegreen.jpg?crc=4107541675"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 153778,
+      "discoveredAt": "2026-09-11T21:04:46.772Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_vl6lja",
+      "url": "https://www.boholbeachclub.com.ph/images/rates-deluxeroom.jpg?crc=141386584",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1nkutru"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/rates-deluxeroom.jpg?crc=141386584",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/rates-deluxeroom.jpg?crc=141386584"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 132443,
+      "discoveredAt": "2026-09-11T21:04:46.772Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1ij2jqh",
+      "url": "https://www.boholbeachclub.com.ph/images/rooms-features-easyaccess.png?crc=305517779",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/rooms-features-easyaccess.png?crc=305517779",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/rooms-features-easyaccess.png?crc=305517779"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 30558,
+      "discoveredAt": "2026-09-11T21:04:20.707Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_y3byhs",
+      "url": "https://www.boholbeachclub.com.ph/images/rooms-features-petfriendly.png?crc=3838483282",
+      "kind": "image",
+      "mime": "image/png",
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ovd307"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/rooms-features-petfriendly.png?crc=3838483282",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/rooms-features-petfriendly.png?crc=3838483282"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 35503,
+      "discoveredAt": "2026-09-11T21:04:20.707Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_15mf4om",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-baclayonchurch.png?crc=3885065592",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-baclayonchurch.png?crc=3885065592",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-baclayonchurch.png?crc=3885065592"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 4859,
+      "discoveredAt": "2026-09-11T21:04:35.299Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_4qzcdz",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-bilarforest.png?crc=3802093385",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-bilarforest.png?crc=3802093385",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-bilarforest.png?crc=3802093385"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 4895,
+      "discoveredAt": "2026-09-11T21:04:35.300Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_13hqb3h",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-bloodcompact.png?crc=121392656",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-bloodcompact.png?crc=121392656",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-bloodcompact.png?crc=121392656"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 4481,
+      "discoveredAt": "2026-09-11T21:04:35.299Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1yht9we",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-chocolatehills.png?crc=4020395871",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-chocolatehills.png?crc=4020395871",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-chocolatehills.png?crc=4020395871"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 4404,
+      "discoveredAt": "2026-09-11T21:04:35.300Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_2p0jih",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-lobocriver.png?crc=176017124",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-lobocriver.png?crc=176017124",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-lobocriver.png?crc=176017124"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 4841,
+      "discoveredAt": "2026-09-11T21:04:35.300Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1hhciam",
+      "url": "https://www.boholbeachclub.com.ph/images/tour-tarsier.png?crc=3817045221",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 58,
+      "height": 58,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/tour-tarsier.png?crc=3817045221",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/tour-tarsier.png?crc=3817045221"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 6474,
+      "discoveredAt": "2026-09-11T21:04:35.300Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_11qa9tn",
+      "url": "https://www.boholbeachclub.com.ph/images/two%20resorts%20tagline.png?crc=478664734",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 152,
+      "height": 45,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1ed430q",
+        "page_66b51k",
+        "page_1nkutru",
+        "page_1ovd307",
+        "page_1h65u0z",
+        "page_tkkgqy",
+        "page_bv7faz",
+        "page_1mralra",
+        "page_352iil",
+        "page_s9238w"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.boholbeachclub.com.ph/images/two%20resorts%20tagline.png?crc=478664734",
+      "variants": [
+        "https://www.boholbeachclub.com.ph/images/two%20resorts%20tagline.png?crc=478664734"
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 8595,
+      "discoveredAt": "2026-09-11T21:04:56.796Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_i1z4zl",
+      "url": "https://www.youtube.com/generate_204?eh4nKQ=",
+      "kind": "image",
+      "mime": null,
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.youtube.com/generate_204?eh4nKQ=",
+      "variants": [
+        "https://www.youtube.com/generate_204?eh4nKQ="
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 0,
+      "discoveredAt": "2026-09-11T21:04:08.940Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_w0zix9",
+      "url": "https://www.youtube.com/generate_204?i92KmQ=",
+      "kind": "image",
+      "mime": null,
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_trhfao"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.youtube.com/generate_204?i92KmQ=",
+      "variants": [
+        "https://www.youtube.com/generate_204?i92KmQ="
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 0,
+      "discoveredAt": "2026-09-11T21:04:08.946Z",
+      "downloadedAt": null
+    },
+    {
+      "id": "asset_1raq75j",
+      "url": "https://www.youtube.com/generate_204?ML3Pvw=",
+      "kind": "image",
+      "mime": null,
+      "width": null,
+      "height": null,
+      "alt": "",
+      "category": "misc",
+      "foundOn": [
+        "page_1t18qj"
+      ],
+      "status": "DISCOVERED",
+      "usage": "REFERENCE_ONLY",
+      "previewUrl": "https://www.youtube.com/generate_204?ML3Pvw=",
+      "variants": [
+        "https://www.youtube.com/generate_204?ML3Pvw="
+      ],
+      "downloadPath": null,
+      "sha256": null,
+      "bytes": 0,
+      "discoveredAt": "2026-09-11T21:04:12.574Z",
+      "downloadedAt": null
+    }
+  ]
+}

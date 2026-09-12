@@ -1,0 +1,437 @@
+{
+  "prospectId": "bohol-beach-club",
+  "amenities": [
+    {
+      "id": "amenity_1kgqea2",
+      "category": "dining",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1dqv28a",
+      "category": "beach",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/",
+      "evidence": "HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEACH CLUB 2025 | Website Powered By: Pinoys Interactive Privacy Policy | Terms of Service VIEW LOCAL RESIDENT RATES It's about the whole experienc…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1pb8p7z",
+      "category": "family",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_ie5sey",
+      "category": "activities",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_trhfao",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/",
+      "evidence": "HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEACH CLUB 2025 | Website Powered By: Pinoys Interactive Privacy Policy | Terms of Service VIEW LOCAL RESIDENT RATES It's about the whole experienc…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_188eoo1",
+      "category": "dining",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_a4z8rl",
+      "category": "beach",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html",
+      "evidence": "HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEACH CLUB 2025 | Website Powered By: Pinoys Interactive Privacy Policy | Terms of Service VIEW LOCAL RESIDENT RATES It's about the whole experienc…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_jju228",
+      "category": "family",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_cf511t",
+      "category": "activities",
+      "name": "Bohol Beach Club | HOME",
+      "sourcePageId": "page_1t18qj",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/index.html",
+      "evidence": "HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEACH CLUB 2025 | Website Powered By: Pinoys Interactive Privacy Policy | Terms of Service VIEW LOCAL RESIDENT RATES It's about the whole experienc…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1221uox",
+      "category": "dining",
+      "name": "Bohol Beach Club | ROOMS",
+      "sourcePageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Our RoomsThe new Bohol Beach Club has a total of eight-eight (88) rooms made up of eighty (80) Deluxe rooms and eight (8) Beachview Suites. All Deluxe rooms have a…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1dydxwh",
+      "category": "beach",
+      "name": "Bohol Beach Club | ROOMS",
+      "sourcePageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Our RoomsThe new Bohol Beach Club has a total of eight-eight (88) rooms made up of eighty (80) Deluxe rooms and eight (8) Beachview Suites. All Deluxe rooms have a…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1ytv7t8",
+      "category": "family",
+      "name": "Bohol Beach Club | ROOMS",
+      "sourcePageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_ebheq2",
+      "category": "pool",
+      "name": "Bohol Beach Club | ROOMS",
+      "sourcePageId": "page_1ovd307",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rooms.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Our RoomsThe new Bohol Beach Club has a total of eight-eight (88) rooms made up of eighty (80) Deluxe rooms and eight (8) Beachview Suites. All Deluxe rooms have a…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1ibiq1o",
+      "category": "dining",
+      "name": "Bohol Beach Club | FOOD",
+      "sourcePageId": "page_1h65u0z",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Food & BeverageThe resort has a coffee shop called the “Agotata” which is open from 6:00am to 10:00pm. Local favorites and international fare are made available th…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_13m210c",
+      "category": "beach",
+      "name": "Bohol Beach Club | FOOD",
+      "sourcePageId": "page_1h65u0z",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Food & BeverageThe resort has a coffee shop called the “Agotata” which is open from 6:00am to 10:00pm. Local favorites and international fare are made available th…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_gki7tz",
+      "category": "family",
+      "name": "Bohol Beach Club | FOOD",
+      "sourcePageId": "page_1h65u0z",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/food.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_115dh8v",
+      "category": "dining",
+      "name": "Bohol Beach Club | AQUASPORTS",
+      "sourcePageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_17ynlqn",
+      "category": "beach",
+      "name": "Bohol Beach Club | AQUASPORTS",
+      "sourcePageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES AquaSportsAqua sports activities and diving are operated by our Club Aquasports office. From world class diving to leisure and fun sports activities, island hoppin…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_d60jpa",
+      "category": "family",
+      "name": "Bohol Beach Club | AQUASPORTS",
+      "sourcePageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1m52jfc",
+      "category": "pool",
+      "name": "Bohol Beach Club | AQUASPORTS",
+      "sourcePageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES AquaSportsAqua sports activities and diving are operated by our Club Aquasports office. From world class diving to leisure and fun sports activities, island hoppin…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_myjmu7",
+      "category": "activities",
+      "name": "Bohol Beach Club | AQUASPORTS",
+      "sourcePageId": "page_tkkgqy",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/aquasports.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES AquaSportsAqua sports activities and diving are operated by our Club Aquasports office. From world class diving to leisure and fun sports activities, island hoppin…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_gwfasw",
+      "category": "dining",
+      "name": "Bohol Beach Club | TOURS & TRANSPORTATION",
+      "sourcePageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Tours & Transportation Tours and transportation requirements can be properly provided by the resort. From transfers to/from the airport, car hire with driver, guid…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1lcpf74",
+      "category": "beach",
+      "name": "Bohol Beach Club | TOURS & TRANSPORTATION",
+      "sourcePageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Tours & Transportation Tours and transportation requirements can be properly provided by the resort. From transfers to/from the airport, car hire with driver, guid…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1g3wb",
+      "category": "family",
+      "name": "Bohol Beach Club | TOURS & TRANSPORTATION",
+      "sourcePageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Tours & Transportation Tours and transportation requirements can be properly provided by the resort. From transfers to/from the airport, car hire with driver, guid…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1kv0p7k",
+      "category": "activities",
+      "name": "Bohol Beach Club | TOURS & TRANSPORTATION",
+      "sourcePageId": "page_1ed430q",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/tours.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES Tours & Transportation Tours and transportation requirements can be properly provided by the resort. From transfers to/from the airport, car hire with driver, guid…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1tk75fl",
+      "category": "dining",
+      "name": "Bohol Beach Club | EVENTS",
+      "sourcePageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES EventsWhether it be a corporate affair to seal a deal or a wedding function to tie the knot, the resort has facilities that can fulfil your requirements. Taclobo P…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1ea5sap",
+      "category": "beach",
+      "name": "Bohol Beach Club | EVENTS",
+      "sourcePageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES EventsWhether it be a corporate affair to seal a deal or a wedding function to tie the knot, the resort has facilities that can fulfil your requirements. Taclobo P…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_cmadt4",
+      "category": "family",
+      "name": "Bohol Beach Club | EVENTS",
+      "sourcePageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES EventsWhether it be a corporate affair to seal a deal or a wedding function to tie the knot, the resort has facilities that can fulfil your requirements. Taclobo P…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1lf551e",
+      "category": "pool",
+      "name": "Bohol Beach Club | EVENTS",
+      "sourcePageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES EventsWhether it be a corporate affair to seal a deal or a wedding function to tie the knot, the resort has facilities that can fulfil your requirements. Taclobo P…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1xom1zx",
+      "category": "events",
+      "name": "Bohol Beach Club | EVENTS",
+      "sourcePageId": "page_66b51k",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/events.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES EventsWhether it be a corporate affair to seal a deal or a wedding function to tie the knot, the resort has facilities that can fulfil your requirements. Taclobo P…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1m9ent8",
+      "category": "dining",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_19cgk3w",
+      "category": "beach",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1lat5y5",
+      "category": "family",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_tgmqi1",
+      "category": "spa",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_gwvqf3",
+      "category": "pool",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_54r4wo",
+      "category": "events",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_2x8iqk",
+      "category": "activities",
+      "name": "Bohol Beach Club | RATES",
+      "sourcePageId": "page_1nkutru",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/rates.html",
+      "evidence": "caption caption caption caption caption 1 2 3 4 5 VIEW LOCAL RESIDENT RATES Our Rates Local Residents Rates (Valid from June to November 2026) BOHOL BEACH BREAK 2.6BOHOL BEACH BREAK 2.6(3 Days/2 Nights Package)BASE PACK…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_178bu3n",
+      "category": "dining",
+      "name": "Bohol Beach Club | CONTACT US",
+      "sourcePageId": "page_bv7faz",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_k3cq5f",
+      "category": "beach",
+      "name": "Bohol Beach Club | CONTACT US",
+      "sourcePageId": "page_bv7faz",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+      "evidence": "caption caption caption 1 2 3 HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEACH CLUB 2025 | Website Powered By: Pinoys Interactive Privacy Policy | Terms of Service VIEW LOCAL RESIDENT RATES …",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_tfwbye",
+      "category": "family",
+      "name": "Bohol Beach Club | CONTACT US",
+      "sourcePageId": "page_bv7faz",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/contact.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_nqeibi",
+      "category": "dining",
+      "name": "Bohol Beach Club | FEEDBACK",
+      "sourcePageId": "page_1mralra",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_ndxtry",
+      "category": "beach",
+      "name": "Bohol Beach Club | FEEDBACK",
+      "sourcePageId": "page_1mralra",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES BOOK NOW BOHOL BEACH CLUB2026Website powered by: Pinoys Interactive ​FEEDBACK BOOK NOW HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEAC…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_1am5o15",
+      "category": "family",
+      "name": "Bohol Beach Club | FEEDBACK",
+      "sourcePageId": "page_1mralra",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/feedback.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_c8w27h",
+      "category": "dining",
+      "name": "Bohol Beach Club | RESERVATION",
+      "sourcePageId": "page_352iil",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_a530tp",
+      "category": "beach",
+      "name": "Bohol Beach Club | RESERVATION",
+      "sourcePageId": "page_352iil",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES BOOK NOW BOHOL BEACH CLUB2026Website powered by: Pinoys Interactive ​FEEDBACK BOOK NOW HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEAC…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_if6db2",
+      "category": "family",
+      "name": "Bohol Beach Club | RESERVATION",
+      "sourcePageId": "page_352iil",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/reservation.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_19k18bd",
+      "category": "dining",
+      "name": "Bohol Beach Club | Bohol Beach Break 2.6",
+      "sourcePageId": "page_s9238w",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_vnjz4p",
+      "category": "beach",
+      "name": "Bohol Beach Club | Bohol Beach Break 2.6",
+      "sourcePageId": "page_s9238w",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html",
+      "evidence": "caption caption caption 1 2 3 VIEW LOCAL RESIDENT RATES BOOK NOW BOHOL BEACH CLUB2026Website powered by: Pinoys Interactive ​FEEDBACK BOOK NOW HOME ROOMS FOOD AQUASPORTS TOURS EVENTS RATES CONTACT US FEEDBACK BOHOL BEAC…",
+      "confidence": "AREA_VERIFIED"
+    },
+    {
+      "id": "amenity_smgriq",
+      "category": "family",
+      "name": "Bohol Beach Club | Bohol Beach Break 2.6",
+      "sourcePageId": "page_s9238w",
+      "sourceUrl": "https://www.boholbeachclub.com.ph/localpromo-boholbeachbreak2026.html",
+      "evidence": "Bohol Beach Club - Experience the best beach front in Panglao This Panglao gem offers everything you are looking for in a perfect vacation, all delivered with service straight from the heart! A long stretch of private b…",
+      "confidence": "AREA_VERIFIED"
+    }
+  ]
+}
