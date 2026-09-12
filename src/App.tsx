@@ -100,7 +100,6 @@ export function App() {
             <div className="hero-actions">
               <a className="button button-light" href="https://www.boholbeachclub.com.ph/rates.html#localrates" target="_blank" rel="noreferrer">VIEW LOCAL RESIDENT RATES <Icon name="arrow" size={17} /></a>
               <a className="button button-ghost" href={BOOK_URL} target="_blank" rel="noreferrer">BOOK NOW <Icon name="arrow" size={17} /></a>
-              <a className="text-link light-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Reference: original Home page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
         </section>
@@ -112,7 +111,6 @@ export function App() {
             <div className="intro-copy">
               <p>After a major renovation, the resort reopened with new rooms, new suites and modern facilities. Its layout maximizes space while emphasizing freedom, privacy and solitude.</p>
               <p>BBC also highlights its large private beach, powdery white sand, pristine waters and generous breathing space away from crowds and distractions.</p>
-              <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Reference: original Home page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
           <figure className="wide-figure">
@@ -123,7 +121,6 @@ export function App() {
         <section id="awards" className="awards-section section-space">
           <div className="awards-heading">
             <div className="section-label">Awards & Certifications</div>
-            <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Reference: original Home page <Icon name="arrow" size={16} /></a>
           </div>
           <div className="awards-grid" aria-label="Bohol Beach Club awards and certifications">
             <img src="/images/awards/award-asean-2024-2026.png" alt="ASEAN award 2024–2026" />
@@ -137,13 +134,12 @@ export function App() {
           <div className="film-copy">
             <div className="section-label light">BOHOL BEACH CLUB 2023</div>
             <h2>Bohol Beach Club 2023</h2>
-            <p>Official YouTube video embedded on Bohol Beach Club's original homepage.</p>
+            <p>Experience Bohol Beach Club through its 2023 resort film.</p>
             <div className="film-meta">
               <span>Bohol Beach Club 2023</span>
               <span>Pinoys Interactive</span>
             </div>
             <a className="text-link light-link" href="https://www.youtube.com/watch?v=y1x-oKYCStw" target="_blank" rel="noreferrer">Watch on YouTube <Icon name="arrow" size={16} /></a>
-            <a className="text-link light-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Reference: original Home page <Icon name="arrow" size={16} /></a>
           </div>
           <div className="film-player">
             <iframe
@@ -171,7 +167,6 @@ export function App() {
                   <h3>{stay.title}</h3>
                   <p>{stay.text}</p>
                   <a className="text-link" href={BOOK_URL} target="_blank" rel="noreferrer">BOOK NOW <Icon name="arrow" size={15} /></a>
-                  <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/rooms.html" target="_blank" rel="noreferrer">Reference: Rooms page <Icon name="arrow" size={15} /></a>
                 </div>
                 <div className="stay-number">0{index + 1}</div>
               </article>
@@ -198,7 +193,6 @@ export function App() {
               <div><dt>Hours</dt><dd>6:00 AM – 10:00 PM</dd></div>
               <div><dt>Room service</dt><dd>6:00 AM – 10:00 PM</dd></div>
             </dl>
-            <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/food.html" target="_blank" rel="noreferrer">Reference: Food page <Icon name="arrow" size={16} /></a>
           </div>
         </section>
 
@@ -216,7 +210,6 @@ export function App() {
               </article>
             ))}
           </div>
-          <div className="section-sources"><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/aquasports.html" target="_blank" rel="noreferrer">Reference: Aqua Sports page <Icon name="arrow" size={16} /></a><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/tours.html" target="_blank" rel="noreferrer">Reference: Tours & Transportation page <Icon name="arrow" size={16} /></a></div>
         </section>
 
         <section id="gather" className="gather-section">
@@ -227,14 +220,13 @@ export function App() {
             <h2>Events</h2>
             <p>The resort's event facilities include the beachfront Taclobo Pavilion, the open-air Courtyard, and a Board Room for smaller meetings and gatherings.</p>
             <a className="button button-light" href="mailto:fandb.coordinator@boholbeachclub.com.ph">BANQUET & WEDDINGS <Icon name="arrow" size={17} /></a>
-            <a className="text-link light-link source-link" href="https://www.boholbeachclub.com.ph/events.html" target="_blank" rel="noreferrer">Reference: Events page <Icon name="arrow" size={16} /></a>
           </div>
         </section>
 
         <section className="gallery-section section-space">
           <div className="section-head">
             <div><div className="section-label">A closer look</div><h2>Beach, table, water, island.</h2></div>
-            <div><p>A small selection from the resort's public visual library, used here for a private redesign concept.</p><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Reference: original website <Icon name="arrow" size={16} /></a></div>
+            <p>A closer look at the rooms, dining, activities, island experiences and celebrations around the resort.</p>
           </div>
           <div className="gallery-grid">
             {gallery.map((src, index) => <img key={src} className={`gallery-${index + 1}`} src={src} alt="Bohol Beach Club resort scene" />)}
@@ -250,7 +242,6 @@ export function App() {
               <a className="button button-light" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={17} /> Book now</a>
               <a className="contact-link" href="mailto:reservations@boholbeachclub.com.ph"><Icon name="mail" size={17} /> reservations@boholbeachclub.com.ph</a>
               <a className="contact-link" href="tel:+639274527054"><Icon name="phone" size={17} /> +63 927 452 7054</a>
-              <a className="contact-link source-link" href="https://www.boholbeachclub.com.ph/contact.html" target="_blank" rel="noreferrer">Reference: Contact Us page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
           <div className="contact-meta">
@@ -262,13 +253,13 @@ export function App() {
 
       <footer className="site-footer">
         <div className="footer-brand"><img className="footer-logo" src="/images/brand-logo.png" alt="Bohol Beach Club" /></div>
-        <p>Private redesign concept generated from public resort research. Source imagery remains reference-only unless separately licensed or approved.</p>
+        <p>Bo. Bolod, Island of Panglao, Bohol, Philippines 6340</p>
         <div className="footer-links">
           <div className="social-links" aria-label="Bohol Beach Club social links">
             <a href="https://www.facebook.com/boholbeachclubresort" target="_blank" rel="noreferrer" aria-label="Bohol Beach Club on Facebook"><Icon name="facebook" size={20} /></a>
             <a href="https://www.instagram.com/boholbeachclub" target="_blank" rel="noreferrer" aria-label="Bohol Beach Club on Instagram"><Icon name="instagram" size={20} /></a>
           </div>
-          <a href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Original website</a>
+          <a href={BOOK_URL} target="_blank" rel="noreferrer">BOOK NOW</a>
         </div>
       </footer>
     </div>
