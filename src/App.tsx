@@ -117,6 +117,29 @@ export function App() {
           </figure>
         </section>
 
+        <section id="film" className="film-section section-space">
+          <div className="film-copy">
+            <div className="section-label light">The resort on film</div>
+            <h2>See Bohol Beach Club in motion.</h2>
+            <p>Watch the resort's 2023 film, the same YouTube video embedded on Bohol Beach Club's official homepage.</p>
+            <div className="film-meta">
+              <span>Bohol Beach Club 2023</span>
+              <span>Pinoys Interactive</span>
+            </div>
+            <a className="text-link light-link" href="https://www.youtube.com/watch?v=y1x-oKYCStw" target="_blank" rel="noreferrer">Watch on YouTube <Icon name="arrow" size={16} /></a>
+          </div>
+          <div className="film-player">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/y1x-oKYCStw?rel=0&modestbranding=1"
+              title="Bohol Beach Club 2023"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </section>
+
         <section id="stay" className="stay-section section-space">
           <div className="section-head">
             <div><div className="section-label">Stay</div><h2>Rooms that keep the island close.</h2></div>

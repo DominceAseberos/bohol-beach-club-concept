@@ -30,3 +30,7 @@ All images below were selectively downloaded from the public Bohol Beach Club we
 | `public/favicon.ico` | `https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770` |
 
 Additional normalized evidence and original asset metadata are preserved under `research/export/`.
+
+## Embedded media provenance
+
+The concept embeds **Bohol Beach Club 2023** from YouTube video `y1x-oKYCStw`, which is the active YouTube iframe currently embedded on Bohol Beach Club's official homepage. The video is authored by Pinoys Interactive. Direct link: `https://www.youtube.com/watch?v=y1x-oKYCStw`.
