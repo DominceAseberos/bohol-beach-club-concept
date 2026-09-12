@@ -34,7 +34,7 @@ const stays = [
     eyebrow: "8 suites",
     title: "Beachview Suites",
     text: "Unique views of the beach and Bohol Sea, with spacious, bright interiors and convenient resort access.",
-    image: "/images/room-02.jpg",
+    image: "/images/room-03.jpg",
   },
 ];
 

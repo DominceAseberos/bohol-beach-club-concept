@@ -32,7 +32,7 @@ const SCENES: Scene[] = [
     name: "Beachfront",
     eyebrow: "Private beach",
     description: "BBC's large private beach, powdery white sand and waters facing the Bohol Sea.",
-    panorama: "/360/beachfront.jpg",
+    panorama: "/360/reconstructed/beachfront/beachfront-360-v3.png",
     thumbnail: "/images/beach-01.jpg",
     links: [
       { nodeId: "grounds", yaw: 0.08, pitch: -0.18 },
@@ -45,8 +45,8 @@ const SCENES: Scene[] = [
     name: "Resort Grounds",
     eyebrow: "Space · privacy · solitude",
     description: "A resort layout described by BBC as maximizing space while giving guests freedom, privacy and solitude.",
-    panorama: "/360/grounds.jpg",
-    thumbnail: "/images/stay-02.jpg",
+    panorama: "/360/reconstructed/resort-grounds/resort-grounds-360-v4.png",
+    thumbnail: "/images/tour-01.jpg",
     links: [
       { nodeId: "beachfront", yaw: 3.02, pitch: -0.18 },
       { nodeId: "deluxe-room", yaw: -0.72, pitch: -0.18 },
@@ -60,7 +60,7 @@ const SCENES: Scene[] = [
     name: "Deluxe Room",
     eyebrow: "80 rooms",
     description: "Deluxe Rooms look toward the swimming pool and beach, with access to the beach, pool and restaurants.",
-    panorama: "/360/deluxe-room.jpg",
+    panorama: "/360/reconstructed/deluxe-room/deluxe-room-360-v4.png",
     thumbnail: "/images/room-01.jpg",
     links: [
       { nodeId: "grounds", yaw: 3.08, pitch: -0.18 },
@@ -73,8 +73,8 @@ const SCENES: Scene[] = [
     name: "Beachview Suite",
     eyebrow: "8 suites",
     description: "Beachview Suites are described by BBC as having unique views of the beach and Bohol Sea.",
-    panorama: "/360/beachview-suite.jpg",
-    thumbnail: "/images/room-02.jpg",
+    panorama: "/360/reconstructed/beachview-suite/beachview-suite-360-v4.png",
+    thumbnail: "/images/room-03.jpg",
     links: [
       { nodeId: "grounds", yaw: -3.02, pitch: -0.18 },
       { nodeId: "deluxe-room", yaw: -0.72, pitch: -0.18 },
@@ -86,8 +86,8 @@ const SCENES: Scene[] = [
     name: "Agotata",
     eyebrow: "Food & beverage",
     description: "The resort's coffee shop serves breakfast, lunch and dinner from 6:00 AM to 10:00 PM.",
-    panorama: "/360/agotata.jpg",
-    thumbnail: "/images/food-02.jpg",
+    panorama: "/360/reconstructed/agotata/agotata-360-v2.png",
+    thumbnail: "/images/food-01.jpg",
     links: [
       { nodeId: "grounds", yaw: -2.42, pitch: -0.18 },
       { nodeId: "events", yaw: 0.88, pitch: -0.18 },
@@ -99,7 +99,7 @@ const SCENES: Scene[] = [
     name: "Club Aquasports",
     eyebrow: "Aqua Sports",
     description: "Club Aquasports handles diving, leisure water sports, island hopping and other water-based activities.",
-    panorama: "/360/aquasports.jpg",
+    panorama: "/360/reconstructed/aquasports/aquasports-360-v2.png",
     thumbnail: "/images/aqua-02.jpg",
     links: [
       { nodeId: "beachfront", yaw: 1.86, pitch: -0.18 },
@@ -112,8 +112,8 @@ const SCENES: Scene[] = [
     name: "Bohol Tours",
     eyebrow: "Tours & transportation",
     description: "The resort can arrange transfers, car hire with driver, guided tours and vehicle rentals around Bohol.",
-    panorama: "/360/bohol-tours.jpg",
-    thumbnail: "/images/tour-01.jpg",
+    panorama: "/360/reconstructed/bohol-tours/bohol-tours-360-v2.png",
+    thumbnail: "/images/tour-03.jpg",
     links: [
       { nodeId: "aquasports", yaw: 3.0, pitch: -0.18 },
       { nodeId: "events", yaw: 0.56, pitch: -0.18 },
@@ -125,7 +125,7 @@ const SCENES: Scene[] = [
     name: "Events",
     eyebrow: "Gatherings",
     description: "Event spaces include the beachfront Taclobo Pavilion, open-air Courtyard and Board Room.",
-    panorama: "/360/events.jpg",
+    panorama: "/360/reconstructed/events/events-360-v2.png",
     thumbnail: "/images/event-03.jpg",
     links: [
       { nodeId: "agotata", yaw: -2.18, pitch: -0.18 },
@@ -263,8 +263,7 @@ export function Resort360() {
           <h2>Move through the resort.</h2>
         </div>
         <div className="tour-heading-copy">
-          <p>Explore reconstructed spherical scenes assembled from Bohol Beach Club's original website imagery. Use the floor arrows or scene rail to move between spaces.</p>
-          <span>Private redesign concept · reconstructed imagery, not a survey-grade 360 capture.</span>
+          <p>Discover the beach, rooms and gathering spaces. Use the floor arrows or scene rail to move between spaces.</p>
         </div>
       </div>
 
