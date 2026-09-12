@@ -36,6 +36,23 @@ All images below were selectively downloaded from the public Bohol Beach Club we
 
 Additional normalized evidence and original asset metadata are preserved under `research/export/`.
 
+## Reconstructed 360 panoramas
+
+The files under `public/360/` are **private prototype reconstructions**, not camera-captured survey panoramas. They are generated locally by `tools/generate-360-panoramas.py` from the reference-only source images above, preserving BBC imagery while creating a 2:1 equirectangular format for the interactive concept viewer.
+
+| Panorama | Source images |
+|---|---|
+| `public/360/beachfront.jpg` | `hero-beach.jpg`, `beach-01.jpg`, `beach-02.jpg` |
+| `public/360/grounds.jpg` | `stay-01.jpg`, `stay-02.jpg`, `stay-03.jpg` |
+| `public/360/deluxe-room.jpg` | `room-01.jpg`, `room-03.jpg`, `stay-01.jpg` |
+| `public/360/beachview-suite.jpg` | `room-02.jpg`, `stay-02.jpg`, `room-03.jpg` |
+| `public/360/agotata.jpg` | `food-01.jpg`, `food-02.jpg`, `food-03.jpg` |
+| `public/360/aquasports.jpg` | `aqua-01.jpg`, `aqua-02.jpg`, `aqua-03.jpg` |
+| `public/360/bohol-tours.jpg` | `tour-01.jpg`, `tour-02.jpg`, `tour-03.jpg` |
+| `public/360/events.jpg` | `event-01.jpg`, `event-02.jpg`, `event-03.jpg` |
+
+These derivatives inherit the same `REFERENCE_ONLY` publication restriction as their source images. The UI explicitly labels the experience as reconstructed imagery and must not imply the panoramas are physically measured or camera-captured 360° documentation.
+
 ## Embedded media provenance
 
 The concept embeds **Bohol Beach Club 2023** from YouTube video `y1x-oKYCStw`, which is the active YouTube iframe currently embedded on Bohol Beach Club's official homepage. The video is authored by Pinoys Interactive. Direct link: `https://www.youtube.com/watch?v=y1x-oKYCStw`.

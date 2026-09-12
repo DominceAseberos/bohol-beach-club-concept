@@ -176,6 +176,63 @@ img { display: block; max-width: 100%; }
 .social-links a { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; color: #fff; background: rgba(255,255,255,.08); transition: background .2s ease, transform .2s ease; }
 .social-links a:hover { background: rgba(255,255,255,.16); transform: translateY(-1px); }
 
+.tour-loading { min-height: 46svh; display: grid; place-items: center; background: #141c18; color: rgba(255,255,255,.7); }
+.tour-loading span { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.tour-section { background: #141c18; color: #fff; }
+.tour-heading { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr); gap: 8vw; align-items: end; background: var(--paper); color: var(--ink); padding-bottom: 74px; }
+.tour-heading h2 { margin: 0; max-width: 760px; font-family: Manrope, sans-serif; font-size: clamp(44px, 5.7vw, 82px); line-height: .98; font-weight: 400; letter-spacing: -.055em; }
+.tour-heading-copy { max-width: 560px; justify-self: end; }
+.tour-heading-copy p { margin: 0 0 16px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.tour-heading-copy span { display: block; color: #8b918c; font-size: 10px; line-height: 1.5; letter-spacing: .06em; text-transform: uppercase; }
+.tour-shell { position: relative; height: min(82svh, 920px); min-height: 680px; overflow: hidden; background: #0b100d; isolation: isolate; }
+.tour-shell:fullscreen { width: 100vw; height: 100vh; min-height: 100vh; }
+.tour-viewer { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tour-vignette { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(180deg, rgba(6,10,8,.5) 0%, rgba(6,10,8,.04) 28%, rgba(6,10,8,.08) 58%, rgba(6,10,8,.72) 100%); }
+.tour-overlay { position: absolute; z-index: 5; inset: 34px 34px auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 26px; pointer-events: none; }
+.tour-current { max-width: 540px; padding: 22px 24px 24px; background: rgba(13,20,16,.66); backdrop-filter: blur(16px); box-shadow: 0 18px 50px rgba(0,0,0,.18); }
+.tour-current > span { display: block; margin-bottom: 18px; color: rgba(255,255,255,.48); font-size: 10px; letter-spacing: .12em; }
+.tour-current p { margin: 0 0 7px; color: rgba(255,255,255,.6); font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.tour-current h3 { margin: 0; font-family: Manrope, sans-serif; font-size: clamp(34px, 4.2vw, 62px); line-height: .98; font-weight: 400; letter-spacing: -.05em; }
+.tour-current div { margin-top: 14px; max-width: 470px; color: rgba(255,255,255,.7); font-size: 12px; line-height: 1.6; }
+.tour-expand { pointer-events: auto; min-height: 46px; display: inline-flex; align-items: center; gap: 9px; padding: 0 15px; border: 0; border-radius: 999px; color: #fff; background: rgba(13,20,16,.68); backdrop-filter: blur(14px); cursor: pointer; box-shadow: 0 16px 40px rgba(0,0,0,.16); }
+.tour-expand span { font-size: 10px; font-weight: 600; letter-spacing: .08em; }
+.tour-instruction { position: absolute; z-index: 5; left: 34px; bottom: 128px; display: inline-flex; align-items: center; gap: 9px; padding: 10px 12px; color: rgba(255,255,255,.74); background: rgba(13,20,16,.56); backdrop-filter: blur(12px); font-size: 10px; letter-spacing: .04em; pointer-events: none; }
+.tour-rail { position: absolute; z-index: 6; inset: auto 0 0; min-height: 108px; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); background: rgba(10,15,12,.82); backdrop-filter: blur(18px); }
+.tour-scene { min-width: 0; display: grid; grid-template-columns: 42px auto minmax(0, 1fr); gap: 10px; align-items: center; padding: 16px 14px; border: 0; color: rgba(255,255,255,.62); background: transparent; text-align: left; cursor: pointer; transition: background .2s ease, color .2s ease; }
+.tour-scene:hover, .tour-scene.active { color: #fff; background: rgba(255,255,255,.08); }
+.tour-scene img { width: 42px; height: 52px; object-fit: cover; opacity: .7; transition: opacity .2s ease, transform .2s ease; }
+.tour-scene:hover img, .tour-scene.active img { opacity: 1; transform: scale(1.02); }
+.tour-scene > span { font-size: 9px; letter-spacing: .1em; color: rgba(255,255,255,.4); }
+.tour-scene strong { min-width: 0; font-family: Manrope, sans-serif; font-size: 11px; line-height: 1.2; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tour-shell .psv-container, .tour-shell .psv-canvas-container { background: #0b100d; }
+.tour-shell .psv-loader-container { color: #fff; }
+.tour-shell .psv-virtual-tour-tooltip { font-family: "DM Sans", system-ui, sans-serif; }
+
+@media (max-width: 1180px) {
+  .tour-heading { grid-template-columns: 1fr; gap: 24px; }
+  .tour-heading-copy { justify-self: start; }
+  .tour-scene { grid-template-columns: 34px minmax(0, 1fr); }
+  .tour-scene img { width: 34px; height: 44px; }
+  .tour-scene > span { display: none; }
+}
+
+@media (max-width: 760px) {
+  .tour-heading { padding-bottom: 52px; }
+  .tour-shell { height: 78svh; min-height: 620px; }
+  .tour-overlay { inset: 18px 18px auto; gap: 12px; }
+  .tour-current { max-width: min(72vw, 360px); padding: 16px 17px 18px; }
+  .tour-current > span { margin-bottom: 12px; }
+  .tour-current h3 { font-size: clamp(30px, 9vw, 46px); }
+  .tour-current div { display: none; }
+  .tour-expand { width: 44px; min-height: 44px; justify-content: center; padding: 0; }
+  .tour-expand span { display: none; }
+  .tour-instruction { left: 18px; bottom: 116px; max-width: calc(100% - 36px); }
+  .tour-rail { min-height: 96px; display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 150px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; }
+  .tour-rail::-webkit-scrollbar { display: none; }
+  .tour-scene { grid-template-columns: 34px minmax(0, 1fr); padding: 12px 10px; }
+  .tour-scene strong { font-size: 10px; }
+}
+
 @media (max-width: 1020px) {
   .site-header { grid-template-columns: 1fr auto; }
   .site-nav { display: none; position: absolute; inset: 70px 16px auto; padding: 18px; flex-direction: column; align-items: stretch; gap: 0; border-radius: 14px; color: var(--ink); background: rgba(251,250,246,.98); box-shadow: 0 22px 50px rgba(31,40,34,.14); }

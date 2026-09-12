@@ -1,4 +1,6 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
+
+const Resort360 = lazy(() => import("./Resort360").then((module) => ({ default: module.Resort360 })));
 
 type IconName = "arrow" | "calendar" | "menu" | "close" | "waves" | "pin" | "mail" | "phone" | "facebook" | "instagram";
 
@@ -63,6 +65,7 @@ export function App() {
   }, []);
 
   const nav = [
+    ["EXPLORE 360", "#explore-360"],
     ["ROOMS", "#stay"],
     ["FOOD", "#dining"],
     ["AQUASPORTS", "#experience"],
@@ -117,6 +120,10 @@ export function App() {
             <img src="/images/hero-beach.jpg" alt="Beachfront setting at Bohol Beach Club" />
           </figure>
         </section>
+
+        <Suspense fallback={<section id="explore-360" className="tour-loading" role="status"><span>Preparing 360 exploration…</span></section>}>
+          <Resort360 />
+        </Suspense>
 
         <section id="awards" className="awards-section section-space">
           <div className="awards-heading">
