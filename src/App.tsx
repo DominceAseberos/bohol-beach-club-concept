@@ -1,4 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useSiteMotion } from "./motion";
 
 const Resort360 = lazy(() => import("./Resort360").then((module) => ({ default: module.Resort360 })));
 
@@ -57,6 +59,8 @@ export function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const scrollToSection = useSiteMotion();
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 48);
     onScroll();
@@ -75,14 +79,22 @@ export function App() {
     ["CONTACT US", "#contact"],
   ];
 
+  const handleAnchorClick = (event: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    setMenuOpen(false);
+    if (!href.startsWith("#")) return;
+    event.preventDefault();
+    window.history.replaceState(null, "", href);
+    scrollToSection(href);
+  };
+
   return (
     <div className="site-shell">
       <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
-        <a className="brand" href="#top" aria-label="Bohol Beach Club home">
+        <a className="brand" href="#top" aria-label="Bohol Beach Club home" onClick={(event) => handleAnchorClick(event, "#top")}>
           <img className="brand-logo" src="/images/brand-logo.png" alt="Bohol Beach Club" />
         </a>
         <nav className={`site-nav ${menuOpen ? "open" : ""}`} aria-label="Primary navigation">
-          {nav.map(([label, href]) => <a key={label} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
+          {nav.map(([label, href]) => <a key={label} href={href} onClick={(event) => handleAnchorClick(event, href)}>{label}</a>)}
         </nav>
         <a className="header-book" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={16} /> BOOK NOW</a>
         <button className="menu-button" type="button" aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen((value) => !value)}>
@@ -109,15 +121,15 @@ export function App() {
 
         <section id="story" className="intro section-space">
           <div className="section-label">BOHOL BEACH CLUB</div>
-          <div className="intro-grid">
+          <div className="intro-grid" data-reveal>
             <h2>Experience the Best Beach Front in Panglao</h2>
             <div className="intro-copy">
               <p>After a major renovation, the resort reopened with new rooms, new suites and modern facilities. Its layout maximizes space while emphasizing freedom, privacy and solitude.</p>
               <p>BBC also highlights its large private beach, powdery white sand, pristine waters and generous breathing space away from crowds and distractions.</p>
             </div>
           </div>
-          <figure className="wide-figure">
-            <img src="/images/hero-beach.jpg" alt="Beachfront setting at Bohol Beach Club" />
+          <figure className="wide-figure" data-reveal>
+            <img data-parallax src="/images/hero-beach.jpg" alt="Beachfront setting at Bohol Beach Club" />
           </figure>
         </section>
 
@@ -129,7 +141,7 @@ export function App() {
           <div className="awards-heading">
             <div className="section-label">Awards & Certifications</div>
           </div>
-          <div className="awards-grid" aria-label="Bohol Beach Club awards and certifications">
+          <div className="awards-grid" data-reveal aria-label="Bohol Beach Club awards and certifications">
             <img src="/images/awards/award-asean-2024-2026.png" alt="ASEAN award 2024–2026" />
             <img src="/images/awards/award-goldcgsp-2026.png" alt="Gold CGSP 2026 award" />
             <img src="/images/awards/award-tripbest-2026.png" alt="Tripadvisor Best 2026 award" />
@@ -138,7 +150,7 @@ export function App() {
         </section>
 
         <section id="film" className="film-section section-space">
-          <div className="film-copy">
+          <div className="film-copy" data-reveal>
             <div className="section-label light">BOHOL BEACH CLUB 2023</div>
             <h2>Bohol Beach Club 2023</h2>
             <p>Experience Bohol Beach Club through its 2023 resort film.</p>
@@ -148,7 +160,7 @@ export function App() {
             </div>
             <a className="text-link light-link" href="https://www.youtube.com/watch?v=y1x-oKYCStw" target="_blank" rel="noreferrer">Watch on YouTube <Icon name="arrow" size={16} /></a>
           </div>
-          <div className="film-player">
+          <div className="film-player" data-reveal>
             <iframe
               src="https://www.youtube-nocookie.com/embed/y1x-oKYCStw?rel=0&modestbranding=1"
               title="Bohol Beach Club 2023"
@@ -161,13 +173,13 @@ export function App() {
         </section>
 
         <section id="stay" className="stay-section section-space">
-          <div className="section-head">
+          <div className="section-head" data-reveal>
             <div><div className="section-label">ROOMS</div><h2>Our Rooms</h2></div>
             <p>The resort has 88 rooms: 80 Deluxe Rooms and 8 Beachview Suites. Rooms are spacious and bright, with modern colors, wooden furniture and local handicraft.</p>
           </div>
           <div className="stay-grid">
             {stays.map((stay, index) => (
-              <article className="stay-card" key={stay.title}>
+              <motion.article className="stay-card" key={stay.title} data-reveal whileHover={{ y: -6 }} transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}>
                 <img src={stay.image} alt={stay.title} />
                 <div className="stay-card-copy">
                   <span>{stay.eyebrow}</span>
@@ -176,7 +188,7 @@ export function App() {
                   <a className="text-link" href={BOOK_URL} target="_blank" rel="noreferrer">BOOK NOW <Icon name="arrow" size={15} /></a>
                 </div>
                 <div className="stay-number">0{index + 1}</div>
-              </article>
+              </motion.article>
             ))}
           </div>
           <div className="image-ribbon">
@@ -187,11 +199,11 @@ export function App() {
         </section>
 
         <section id="dining" className="editorial-split section-space">
-          <div className="editorial-image-stack">
-            <img className="editorial-main" src="/images/food-02.jpg" alt="Dining at Bohol Beach Club" />
+          <div className="editorial-image-stack" data-reveal>
+            <img className="editorial-main" data-parallax src="/images/food-02.jpg" alt="Dining at Bohol Beach Club" />
             <img className="editorial-inset" src="/images/food-03.jpg" alt="Resort food and beverage" />
           </div>
-          <div className="editorial-copy">
+          <div className="editorial-copy" data-reveal>
             <div className="section-label">FOOD</div>
             <h2>Food & Beverage</h2>
             <p>Agotata is the resort's coffee shop, open from 6:00 AM to 10:00 PM, serving breakfast, lunch and dinner with local favorites and international fare.</p>
@@ -204,25 +216,25 @@ export function App() {
         </section>
 
         <section id="experience" className="experience-section section-space">
-          <div className="section-head experience-head">
+          <div className="section-head experience-head" data-reveal>
             <div><div className="section-label">AQUASPORTS · TOURS</div><h2>Aqua Sports</h2></div>
             <p>Club Aquasports handles diving and water activities, while the resort can arrange transfers, car hire, guided tours and vehicle rentals for exploring Bohol.</p>
           </div>
           <div className="experience-grid">
             {experiences.map((experience, index) => (
-              <article className={`experience-card experience-${index + 1}`} key={experience.title}>
+              <motion.article className={`experience-card experience-${index + 1}`} key={experience.title} data-reveal whileHover={{ y: -5 }} transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }}>
                 <img src={experience.image} alt={experience.title} />
                 <div className="experience-overlay" />
                 <div className="experience-copy"><span>0{index + 1}</span><h3>{experience.title}</h3><p>{experience.text}</p></div>
-              </article>
+              </motion.article>
             ))}
           </div>
         </section>
 
         <section id="gather" className="gather-section">
-          <img src="/images/event-03.jpg" alt="Events at Bohol Beach Club" />
+          <img data-parallax src="/images/event-03.jpg" alt="Events at Bohol Beach Club" />
           <div className="gather-shade" />
-          <div className="gather-content">
+          <div className="gather-content" data-reveal>
             <div className="section-label light">EVENTS</div>
             <h2>Events</h2>
             <p>The resort's event facilities include the beachfront Taclobo Pavilion, the open-air Courtyard, and a Board Room for smaller meetings and gatherings.</p>
@@ -231,17 +243,17 @@ export function App() {
         </section>
 
         <section className="gallery-section section-space">
-          <div className="section-head">
+          <div className="section-head" data-reveal>
             <div><div className="section-label">A closer look</div><h2>Beach, table, water, island.</h2></div>
             <p>A closer look at the rooms, dining, activities, island experiences and celebrations around the resort.</p>
           </div>
           <div className="gallery-grid">
-            {gallery.map((src, index) => <img key={src} className={`gallery-${index + 1}`} src={src} alt="Bohol Beach Club resort scene" />)}
+            {gallery.map((src, index) => <motion.img key={src} className={`gallery-${index + 1}`} src={src} alt="Bohol Beach Club resort scene" data-reveal whileHover={{ scale: 1.018 }} transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }} />)}
           </div>
         </section>
 
         <section id="contact" className="contact-section section-space">
-          <div className="contact-panel">
+          <div className="contact-panel" data-reveal>
             <div className="section-label light">CONTACT US</div>
             <h2>Contact Us</h2>
             <p>Bo. Bolod, Island of Panglao, Bohol, Philippines 6340. Room reservations are available through the official reservation page and reservations team.</p>
@@ -251,7 +263,7 @@ export function App() {
               <a className="contact-link" href="tel:+639274527054"><Icon name="phone" size={17} /> +63 927 452 7054</a>
             </div>
           </div>
-          <div className="contact-meta">
+          <div className="contact-meta" data-reveal>
             <div><Icon name="pin" size={18} /><span>Bo. Bolod, Island of Panglao<br />Bohol, Philippines 6340</span></div>
             <div className="contact-image"><img src="/images/beach-02.jpg" alt="Panglao beachfront" /></div>
           </div>
