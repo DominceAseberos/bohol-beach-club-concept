@@ -27,5 +27,6 @@ All images below were selectively downloaded from the public Bohol Beach Club we
 | `public/images/event-03.jpg` | `https://www.boholbeachclub.com.ph/assets/functions-03.jpg` |
 | `public/images/source-logo.png` | `https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401` |
 | `public/images/brand-logo.png` | `https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505` |
+| `public/favicon.ico` | `https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770` |
 
 Additional normalized evidence and original asset metadata are preserved under `research/export/`.
