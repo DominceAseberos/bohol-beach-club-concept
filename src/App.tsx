@@ -23,21 +23,21 @@ const stays = [
   {
     eyebrow: "80 rooms",
     title: "Deluxe Rooms",
-    text: "Comfortable island rooms designed for easy beach days, slow mornings, and family stays close to the shore.",
+    text: "Deluxe Rooms have views of the swimming pool and beach, with convenient access to the beach, pool and restaurants.",
     image: "/images/room-01.jpg",
   },
   {
     eyebrow: "8 suites",
     title: "Beachview Suites",
-    text: "A more intimate stay with a stronger connection to the sea and the resort's long private beachfront.",
+    text: "Beachview Suites have their own views of the beach and Bohol Sea, with the same convenient resort access.",
     image: "/images/room-02.jpg",
   },
 ];
 
 const experiences = [
-  { title: "Club Aquasports", text: "Diving, island hopping, and water activities organized from the resort.", image: "/images/aqua-02.jpg" },
-  { title: "Bohol by land", text: "Resort-arranged transportation and guided trips across the island.", image: "/images/tour-01.jpg" },
-  { title: "Gather by the sea", text: "Wedding and corporate functions framed by gardens, palms, and open water.", image: "/images/event-02.jpg" },
+  { title: "Club Aquasports", text: "Diving, leisure water sports, island hopping, dolphin sightseeing and whale shark swimming are handled by Club Aquasports staff.", image: "/images/aqua-02.jpg" },
+  { title: "Tours & Transportation", text: "Airport and seaport transfers, car hire with driver, guided tours and vehicle rentals can be arranged by the resort.", image: "/images/tour-01.jpg" },
+  { title: "Events", text: "The resort provides facilities for corporate affairs, wedding functions and smaller meetings or gatherings.", image: "/images/event-02.jpg" },
 ];
 
 const gallery = [
@@ -61,11 +61,11 @@ export function App() {
   }, []);
 
   const nav = [
-    ["Stay", "#stay"],
-    ["Dining", "#dining"],
-    ["Experience", "#experience"],
-    ["Gather", "#gather"],
-    ["Contact", "#contact"],
+    ["Rooms", "#stay"],
+    ["Food", "#dining"],
+    ["Aqua Sports & Tours", "#experience"],
+    ["Events", "#gather"],
+    ["Contact Us", "#contact"],
   ];
 
   return (
@@ -77,7 +77,7 @@ export function App() {
         <nav className={`site-nav ${menuOpen ? "open" : ""}`} aria-label="Primary navigation">
           {nav.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
         </nav>
-        <a className="header-book" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={16} /> Book your stay</a>
+        <a className="header-book" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={16} /> BOOK NOW</a>
         <button className="menu-button" type="button" aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen((value) => !value)}>
           <Icon name={menuOpen ? "close" : "menu"} size={21} />
         </button>
@@ -88,12 +88,12 @@ export function App() {
           <img className="hero-image" src="/images/beach-01.jpg" alt="Bohol Beach Club beachfront" />
           <div className="hero-shade" />
           <div className="hero-content">
-            <p className="kicker light">Private beachfront · Panglao Island</p>
-            <h1>Come for the beach.<br />Stay for the whole experience.</h1>
-            <p className="hero-copy">A quieter way to experience Panglao—long beach mornings, relaxed island dining, and days that move naturally between the water and the shade.</p>
+            <p className="kicker light">Experience the Best Beach Front in Panglao</p>
+            <h1>It's about the <br />whole experience.</h1>
+            <p className="hero-copy">Bohol Beach Club highlights its large private beach, powdery white sand, pristine water and spacious resort layout designed around freedom, privacy and solitude.</p>
             <div className="hero-actions">
-              <a className="button button-light" href={BOOK_URL} target="_blank" rel="noreferrer">Reserve a room <Icon name="arrow" size={17} /></a>
-              <a className="text-link light-link" href="#story">Explore the resort <Icon name="arrow" size={16} /></a>
+              <a className="button button-light" href={BOOK_URL} target="_blank" rel="noreferrer">BOOK NOW <Icon name="arrow" size={17} /></a>
+              <a className="text-link light-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Source: original Home page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
           <div className="hero-facts" aria-label="Resort facts">
@@ -104,12 +104,12 @@ export function App() {
         </section>
 
         <section id="story" className="intro section-space">
-          <div className="section-label">Bohol, slowly</div>
+          <div className="section-label">Bohol Beach Club</div>
           <div className="intro-grid">
-            <h2>A classic Panglao beach resort, reframed around what matters most.</h2>
+            <h2>Rooms, restaurants, activities and facilities shaped around the guest experience.</h2>
             <div className="intro-copy">
-              <p>Bohol Beach Club brings together a long private stretch of sand, 88 rooms, island dining, watersports, tours, and spaces for celebrations. The idea is simple: make every part of the stay feel close to the beach.</p>
-              <a className="text-link" href="#stay">Discover the stay <Icon name="arrow" size={16} /></a>
+              <p>After a major renovation, the resort reopened with new rooms, new suites and modern facilities. Its layout is designed to maximize space while giving guests a sense of freedom, privacy and solitude.</p>
+              <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Source: original Home page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
           <figure className="wide-figure">
@@ -119,14 +119,15 @@ export function App() {
 
         <section id="film" className="film-section section-space">
           <div className="film-copy">
-            <div className="section-label light">The resort on film</div>
-            <h2>See Bohol Beach Club in motion.</h2>
-            <p>Watch the resort's 2023 film, the same YouTube video embedded on Bohol Beach Club's official homepage.</p>
+            <div className="section-label light">Bohol Beach Club 2023</div>
+            <h2>Official homepage video.</h2>
+            <p>This is the YouTube video embedded directly on Bohol Beach Club's original Home page.</p>
             <div className="film-meta">
               <span>Bohol Beach Club 2023</span>
               <span>Pinoys Interactive</span>
             </div>
             <a className="text-link light-link" href="https://www.youtube.com/watch?v=y1x-oKYCStw" target="_blank" rel="noreferrer">Watch on YouTube <Icon name="arrow" size={16} /></a>
+            <a className="text-link light-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Source: original Home page <Icon name="arrow" size={16} /></a>
           </div>
           <div className="film-player">
             <iframe
@@ -142,8 +143,8 @@ export function App() {
 
         <section id="stay" className="stay-section section-space">
           <div className="section-head">
-            <div><div className="section-label">Stay</div><h2>Rooms that keep the island close.</h2></div>
-            <p>Eighty Deluxe Rooms and eight Beachview Suites form the heart of the resort's accommodation offering.</p>
+            <div><div className="section-label">Our Rooms</div><h2>80 Deluxe Rooms. 8 Beachview Suites.</h2></div>
+            <p>The resort describes its rooms as spacious and bright, using modern colors with wooden furniture and local handicraft. Easy-access and pet-friendly room options are also available.</p>
           </div>
           <div className="stay-grid">
             {stays.map((stay, index) => (
@@ -153,7 +154,7 @@ export function App() {
                   <span>{stay.eyebrow}</span>
                   <h3>{stay.title}</h3>
                   <p>{stay.text}</p>
-                  <a className="text-link" href={BOOK_URL} target="_blank" rel="noreferrer">View availability <Icon name="arrow" size={15} /></a>
+                  <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/rooms.html" target="_blank" rel="noreferrer">Source: Rooms page <Icon name="arrow" size={15} /></a>
                 </div>
                 <div className="stay-number">0{index + 1}</div>
               </article>
@@ -172,21 +173,22 @@ export function App() {
             <img className="editorial-inset" src="/images/food-03.jpg" alt="Resort food and beverage" />
           </div>
           <div className="editorial-copy">
-            <div className="section-label">Food & beverage</div>
-            <h2>Island days, served simply.</h2>
-            <p>The resort's Agotata coffee shop serves local favorites and international fare from morning through evening, making dining part of the rhythm rather than a separate occasion.</p>
+            <div className="section-label">Food & Beverage</div>
+            <h2>Agotata</h2>
+            <p>The resort's coffee shop is open from 6:00 AM to 10:00 PM, serving breakfast, lunch and dinner with Filipino favorites and international dishes. Room service is available during the same hours.</p>
             <dl className="quiet-list">
-              <div><dt>Agotata</dt><dd>6:00 AM – 10:00 PM</dd></div>
-              <div><dt>Setting</dt><dd>Casual resort dining</dd></div>
-              <div><dt>Style</dt><dd>Local & international</dd></div>
+              <div><dt>Coffee shop</dt><dd>Agotata</dd></div>
+              <div><dt>Hours</dt><dd>6:00 AM – 10:00 PM</dd></div>
+              <div><dt>Meals</dt><dd>Breakfast · Lunch · Dinner</dd></div>
             </dl>
+            <a className="text-link source-link" href="https://www.boholbeachclub.com.ph/food.html" target="_blank" rel="noreferrer">Source: Food page <Icon name="arrow" size={16} /></a>
           </div>
         </section>
 
         <section id="experience" className="experience-section section-space">
           <div className="section-head experience-head">
-            <div><div className="section-label">Experience</div><h2>Go farther than the shoreline.</h2></div>
-            <p>From the water to the roads of Bohol, the resort can organize the next part of the day without pulling you out of vacation mode.</p>
+            <div><div className="section-label">Aqua Sports · Tours & Transportation</div><h2>Water activities, island tours and resort-arranged transportation.</h2></div>
+            <p>Club Aquasports handles diving and water activities, while the resort can arrange transfers, car hire, guided tours and vehicle rentals for exploring Bohol.</p>
           </div>
           <div className="experience-grid">
             {experiences.map((experience, index) => (
@@ -197,23 +199,24 @@ export function App() {
               </article>
             ))}
           </div>
+          <div className="section-sources"><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/aquasports.html" target="_blank" rel="noreferrer">Source: Aqua Sports page <Icon name="arrow" size={16} /></a><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/tours.html" target="_blank" rel="noreferrer">Source: Tours & Transportation page <Icon name="arrow" size={16} /></a></div>
         </section>
 
         <section id="gather" className="gather-section">
           <img src="/images/event-03.jpg" alt="Events at Bohol Beach Club" />
           <div className="gather-shade" />
           <div className="gather-content">
-            <div className="section-label light">Gather</div>
-            <h2>Milestones feel different by the sea.</h2>
-            <p>Weddings, corporate functions, and group occasions can be hosted across the resort's event facilities.</p>
-            <a className="button button-light" href="mailto:reservations@boholbeachclub.com.ph">Plan an event <Icon name="arrow" size={17} /></a>
+            <div className="section-label light">Events</div>
+            <h2>Corporate affairs and wedding functions.</h2>
+            <p>The Events page lists the beachfront Taclobo Pavilion, the open-air Courtyard and a Board Room for smaller meetings and gatherings.</p>
+            <a className="button button-light" href="https://www.boholbeachclub.com.ph/events.html" target="_blank" rel="noreferrer">Source: Events page <Icon name="arrow" size={17} /></a>
           </div>
         </section>
 
         <section className="gallery-section section-space">
           <div className="section-head">
-            <div><div className="section-label">A closer look</div><h2>Beach, table, water, island.</h2></div>
-            <p>A small selection from the resort's public visual library, used here for a private redesign concept.</p>
+            <div><div className="section-label">Original Website Images</div><h2>Rooms, food, aqua sports, tours and events.</h2></div>
+            <div><p>These images were selectively downloaded from Bohol Beach Club's original public website and remain linked to their source records in this private prototype.</p><a className="text-link source-link" href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Source: original website <Icon name="arrow" size={16} /></a></div>
           </div>
           <div className="gallery-grid">
             {gallery.map((src, index) => <img key={src} className={`gallery-${index + 1}`} src={src} alt="Bohol Beach Club resort scene" />)}
@@ -222,13 +225,14 @@ export function App() {
 
         <section id="contact" className="contact-section section-space">
           <div className="contact-panel">
-            <div className="section-label light">Plan the stay</div>
-            <h2>Panglao is waiting.</h2>
-            <p>Book through the resort's official reservation flow, or contact the reservations team directly.</p>
+            <div className="section-label light">Contact Us</div>
+            <h2>Bohol Beach Club</h2>
+            <p>Bo. Bolod, Island of Panglao, Bohol, Philippines 6340. Room reservations are handled through the resort's official reservation page and reservations email.</p>
             <div className="contact-actions">
-              <a className="button button-light" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={17} /> Book now</a>
+              <a className="button button-light" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={17} /> BOOK NOW</a>
               <a className="contact-link" href="mailto:reservations@boholbeachclub.com.ph"><Icon name="mail" size={17} /> reservations@boholbeachclub.com.ph</a>
               <a className="contact-link" href="tel:+639274527054"><Icon name="phone" size={17} /> +63 927 452 7054</a>
+              <a className="contact-link source-link" href="https://www.boholbeachclub.com.ph/contact.html" target="_blank" rel="noreferrer">Source: Contact Us page <Icon name="arrow" size={16} /></a>
             </div>
           </div>
           <div className="contact-meta">

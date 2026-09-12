@@ -65,6 +65,8 @@ img { display: block; max-width: 100%; }
 .button-light { color: var(--ink); background: #f6f3eb; }
 .text-link { display: inline-flex; align-items: center; gap: 9px; width: fit-content; font-size: 12px; font-weight: 600; }
 .light-link { color: rgba(255,255,255,.82); }
+.source-link { margin-top: 16px; font-size: 10px; letter-spacing: .04em; opacity: .72; }
+.section-sources { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 26px; }
 .hero-facts { position: absolute; z-index: 2; inset: auto clamp(24px, 6vw, 92px) 34px; display: flex; gap: 44px; }
 .hero-facts div { display: grid; gap: 3px; }
 .hero-facts strong { font-family: Manrope, sans-serif; font-size: 16px; font-weight: 500; }
