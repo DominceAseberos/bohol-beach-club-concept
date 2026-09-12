@@ -42,12 +42,9 @@ img { display: block; max-width: 100%; }
   backdrop-filter: blur(14px);
   box-shadow: 0 12px 30px rgba(31, 40, 34, .06);
 }
-.brand { display: inline-flex; align-items: center; gap: 10px; width: fit-content; }
-.brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,255,255,.13); }
-.scrolled .brand-mark { background: #e7e8e1; }
-.brand > span:last-child { display: grid; line-height: 1.1; }
-.brand strong { font-family: Manrope, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: -.01em; }
-.brand small { margin-top: 3px; opacity: .65; font-size: 9px; letter-spacing: .13em; text-transform: uppercase; }
+.brand { display: inline-flex; align-items: center; width: fit-content; }
+.brand-logo { width: auto; height: 54px; object-fit: contain; filter: brightness(0) invert(1); transition: height .25s ease, filter .25s ease; }
+.scrolled .brand-logo { height: 48px; filter: none; }
 .site-nav { display: flex; align-items: center; gap: clamp(18px, 2vw, 34px); }
 .site-nav a { font-size: 12px; font-weight: 500; opacity: .82; }
 .site-nav a:hover { opacity: 1; }
@@ -155,8 +152,8 @@ img { display: block; max-width: 100%; }
 .contact-image img { width: 100%; height: 100%; object-fit: cover; }
 
 .site-footer { min-height: 140px; padding: 38px clamp(24px, 6vw, 92px); display: grid; grid-template-columns: 1fr 1.3fr auto; gap: 30px; align-items: center; background: #18211d; color: rgba(255,255,255,.7); }
-.footer-brand { display: flex; align-items: center; gap: 10px; color: #fff; }
-.footer-brand strong { font-size: 13px; }
+.footer-brand { display: flex; align-items: center; }
+.footer-logo { width: auto; height: 68px; object-fit: contain; filter: brightness(0) invert(1); opacity: .96; }
 .site-footer p { margin: 0; max-width: 620px; font-size: 10px; line-height: 1.5; }
 .site-footer > a { font-size: 11px; color: #fff; }
 
@@ -179,8 +176,8 @@ img { display: block; max-width: 100%; }
 @media (max-width: 720px) {
   .site-header { height: 70px; padding: 0 18px; }
   .site-header.scrolled { height: 64px; }
-  .brand small { display: none; }
-  .brand-mark { width: 32px; height: 32px; }
+  .brand-logo { height: 44px; }
+  .site-header.scrolled .brand-logo { height: 40px; }
   .hero-content { padding: 130px 20px 190px; }
   .hero h1 { font-size: clamp(46px, 15vw, 72px); }
   .hero-facts { inset: auto 20px 28px; gap: 24px; flex-wrap: wrap; }

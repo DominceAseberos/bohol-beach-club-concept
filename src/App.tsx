@@ -72,8 +72,7 @@ export function App() {
     <div className="site-shell">
       <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
         <a className="brand" href="#top" aria-label="Bohol Beach Club home">
-          <span className="brand-mark"><Icon name="waves" size={20} /></span>
-          <span><strong>Bohol Beach Club</strong><small>Panglao · Bohol</small></span>
+          <img className="brand-logo" src="/images/brand-logo.png" alt="Bohol Beach Club" />
         </a>
         <nav className={`site-nav ${menuOpen ? "open" : ""}`} aria-label="Primary navigation">
           {nav.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
@@ -217,7 +216,7 @@ export function App() {
       </main>
 
       <footer className="site-footer">
-        <div className="footer-brand"><span className="brand-mark"><Icon name="waves" size={19} /></span><strong>Bohol Beach Club</strong></div>
+        <div className="footer-brand"><img className="footer-logo" src="/images/brand-logo.png" alt="Bohol Beach Club" /></div>
         <p>Private redesign concept generated from public resort research. Source imagery remains reference-only unless separately licensed or approved.</p>
         <a href="https://www.boholbeachclub.com.ph/" target="_blank" rel="noreferrer">Original website</a>
       </footer>
