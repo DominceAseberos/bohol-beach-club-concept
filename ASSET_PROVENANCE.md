@@ -51,6 +51,18 @@ The files under `public/360/` are **private prototype reconstructions**, not cam
 | `public/360/bohol-tours.jpg` | `tour-01.jpg`, `tour-02.jpg`, `tour-03.jpg` |
 | `public/360/events.jpg` | `event-01.jpg`, `event-02.jpg`, `event-03.jpg` |
 
+### Reconstructed scene candidates generated from uploaded references
+
+These files were generated from user-supplied BBC reference imagery during the 360 reconstruction pass. They are separate from the deterministic collage panoramas above and are kept versioned so candidate scenes can be compared before promotion into the live viewer.
+
+| Candidate panorama | Reference basis |
+|---|---|
+| `public/360/reconstructed/beachfront/beachfront-360-v2.png` | Beachfront reference imagery, including `hero-beach.jpg` |
+| `public/360/reconstructed/resort-aerial/resort-aerial-360-v2.png` | BBC aerial resort reference imagery |
+| `public/360/reconstructed/resort-aerial/resort-aerial-360-v3.png` | BBC aerial resort reference imagery |
+
+All three candidates are 1774x887 (2:1 equirectangular aspect ratio). They remain reconstructed concept imagery rather than camera-captured 360 documentation.
+
 These derivatives inherit the same `REFERENCE_ONLY` publication restriction as their source images. The UI explicitly labels the experience as reconstructed imagery and must not imply the panoramas are physically measured or camera-captured 360° documentation.
 
 ## Embedded media provenance
