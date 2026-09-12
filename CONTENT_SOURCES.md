@@ -5,6 +5,8 @@ The visible resort copy in this private concept is grounded in Bohol Beach Club'
 | Concept section | Original source |
 |---|---|
 | Hero / resort overview | https://www.boholbeachclub.com.ph/ |
+| Awards & Certifications | https://www.boholbeachclub.com.ph/ |
+| Social links (Facebook / Instagram) | https://www.boholbeachclub.com.ph/ |
 | Official homepage video | https://www.boholbeachclub.com.ph/ and https://www.youtube.com/watch?v=y1x-oKYCStw |
 | Rooms | https://www.boholbeachclub.com.ph/rooms.html |
 | Food & Beverage / Agotata | https://www.boholbeachclub.com.ph/food.html |

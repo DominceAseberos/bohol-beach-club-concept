@@ -28,6 +28,11 @@ All images below were selectively downloaded from the public Bohol Beach Club we
 | `public/images/source-logo.png` | `https://www.boholbeachclub.com.ph/images/logo.png?crc=385873401` |
 | `public/images/brand-logo.png` | `https://www.boholbeachclub.com.ph/images/bbc-logo2.png?crc=246490505` |
 | `public/favicon.ico` | `https://www.boholbeachclub.com.ph/images/a-master-new-menu-favicon.ico?crc=77234770` |
+| `public/images/awards/award-asean-2024-2026.png` | `https://www.boholbeachclub.com.ph/images/award-asean-2024-2026.png?crc=3765095369` |
+| `public/images/awards/award-goldcgsp-2026.png` | `https://www.boholbeachclub.com.ph/images/award-goldcgsp-2026.png?crc=3939314608` |
+| `public/images/awards/award-tripbest-2026.png` | `https://www.boholbeachclub.com.ph/images/award-tripbest-2026.png?crc=4046969001` |
+| `public/images/awards/awards-dot.png` | `https://www.boholbeachclub.com.ph/images/awards-dot.png?crc=4115495089` |
+| `public/video/bbc2023-videobground.mp4` | `https://www.boholbeachclub.com.ph/assets/bbc2023-videobground.mp4` |
 
 Additional normalized evidence and original asset metadata are preserved under `research/export/`.
 
