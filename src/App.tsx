@@ -94,7 +94,20 @@ export function App() {
           <img className="brand-logo" src="/images/brand-logo.png" alt="Bohol Beach Club" />
         </a>
         <nav className={`site-nav ${menuOpen ? "open" : ""}`} aria-label="Primary navigation">
-          {nav.map(([label, href]) => <a key={label} href={href} onClick={(event) => handleAnchorClick(event, href)}>{label}</a>)}
+          {nav.map(([label, href]) => (
+            <a key={label} href={href} onClick={(event) => handleAnchorClick(event, href)}>
+              {label}
+            </a>
+          ))}
+          <a
+            className="menu-book-btn button button-light"
+            href={BOOK_URL}
+            target="_blank"
+            rel="noreferrer"
+            onClick={() => setMenuOpen(false)}
+          >
+            <Icon name="calendar" size={16} /> BOOK NOW
+          </a>
         </nav>
         <a className="header-book" href={BOOK_URL} target="_blank" rel="noreferrer"><Icon name="calendar" size={16} /> BOOK NOW</a>
         <button className="menu-button" type="button" aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen((value) => !value)}>

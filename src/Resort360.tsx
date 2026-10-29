@@ -188,6 +188,8 @@ export function Resort360() {
   const [isFullView, setIsFullView] = useState(false);
   const activeScene = sceneById.get(activeId) ?? SCENES[0];
 
+  const isTouchDevice = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
+
   const nodes = useMemo<VirtualTourNode[]>(() => SCENES.map((scene) => ({
     id: scene.id,
     panorama: scene.panorama,
@@ -218,7 +220,7 @@ export function Resort360() {
         maxFov: 95,
         mousewheel: false, // Prevents wheel scroll hijacking in page flow
         mousewheelCtrlKey: true, // Allows Ctrl + scroll zoom if desired
-        touchmoveTwoFingers: false,
+        touchmoveTwoFingers: isTouchDevice, // Touch screens: 1-finger scrolls page, 2-fingers pan/zoom
         navbar: false,
         plugins: [
           VirtualTourPlugin.withConfig({
@@ -259,18 +261,21 @@ export function Resort360() {
       tourRef.current = null;
       viewer?.destroy();
     };
-  }, [nodes]);
+  }, [nodes, isTouchDevice]);
 
   useEffect(() => {
     const onFullscreen = () => {
       const isFs = document.fullscreenElement === shellRef.current;
       setFullscreen(isFs);
-      // In fullscreen mode, enable mousewheel zoom directly since page scrolling is absent
+      // In fullscreen mode, mousewheel zooms directly and 1-finger pans (since page scrolling is absent)
       viewerRef.current?.setOption("mousewheel", isFs);
+      if (isTouchDevice) {
+        viewerRef.current?.setOption("touchmoveTwoFingers", !isFs);
+      }
     };
     document.addEventListener("fullscreenchange", onFullscreen);
     return () => document.removeEventListener("fullscreenchange", onFullscreen);
-  }, []);
+  }, [isTouchDevice]);
 
   // GSAP ScrollTrigger: Pin the container, grow the map to full view, and hide the navbar
   useEffect(() => {
@@ -284,10 +289,24 @@ export function Resort360() {
     const shell = shellRef.current;
 
     const ctx = gsap.context(() => {
-      const isMobile = window.innerWidth <= 760;
-      const initialWidth = isMobile ? "calc(100% - 28px)" : "min(1160px, calc(100% - 64px))";
-      const initialHeight = isMobile ? "56svh" : "min(62svh, 560px)";
-      const initialRadius = isMobile ? "18px" : "24px";
+      const width = window.innerWidth;
+      const isMobile = width <= 640;
+      const isTablet = width > 640 && width <= 1024;
+
+      const initialWidth = isMobile
+        ? "calc(100% - 24px)"
+        : isTablet
+        ? "calc(100% - 48px)"
+        : "min(1160px, calc(100% - 64px))";
+
+      const initialHeight = isMobile
+        ? "clamp(340px, 52svh, 440px)"
+        : isTablet
+        ? "min(58svh, 520px)"
+        : "min(62svh, 560px)";
+
+      const initialRadius = isMobile ? "16px" : isTablet ? "20px" : "24px";
+      const pinDistance = isMobile ? 800 : isTablet ? 1000 : 1200;
 
       gsap.set(shell, {
         width: initialWidth,
@@ -300,7 +319,7 @@ export function Resort360() {
         scrollTrigger: {
           trigger: pinWrap,
           start: "top top",
-          end: "+=1200",
+          end: `+=${pinDistance}`,
           pin: true,
           pinSpacing: true,
           scrub: 0.5,
@@ -308,8 +327,8 @@ export function Resort360() {
           invalidateOnRefresh: true,
           snap: {
             snapTo: [0, 0.35, 1],
-            duration: 0.5,
-            delay: 0.08,
+            duration: 0.45,
+            delay: 0.1,
             ease: "power2.out",
           },
           onEnter: () => {
@@ -358,13 +377,18 @@ export function Resort360() {
     };
   }, []);
 
-  const selectScene = (scene: Scene) => {
+  const selectScene = (scene: Scene, event?: React.MouseEvent) => {
     setActiveId(scene.id);
     void tourRef.current?.setCurrentNode(scene.id, {
       effect: "fade",
       rotation: false,
       speed: 700,
       showLoader: true,
+    });
+    (event?.currentTarget as HTMLElement | undefined)?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "center",
     });
   };
 
@@ -398,8 +422,9 @@ export function Resort360() {
               const target = pinWrapRef.current;
               if (!target) return;
               const lenis = (window as unknown as { __lenis?: { scrollTo: (target: HTMLElement, opts: object) => void } }).__lenis;
+              const offsetDistance = window.innerWidth <= 640 ? 300 : window.innerWidth <= 1024 ? 360 : 420;
               if (lenis) {
-                lenis.scrollTo(target, { offset: 420, duration: 1.0 });
+                lenis.scrollTo(target, { offset: offsetDistance, duration: 0.95 });
               } else {
                 target.scrollIntoView({ behavior: "smooth" });
               }
@@ -459,7 +484,14 @@ export function Resort360() {
               </div>
             </div>
 
-            <div className="tour-instruction"><CompassIcon size={16} /><span>Drag to look around · select an arrow to move</span></div>
+            <div className="tour-instruction">
+              <CompassIcon size={16} />
+              <span>
+                {isTouchDevice
+                  ? (fullscreen ? "Drag to look around · tap arrows to move" : "Use two fingers to look around · tap arrows to move")
+                  : "Drag to look around · select an arrow to move"}
+              </span>
+            </div>
 
             <div className="tour-rail" aria-label="360 resort scenes">
               {SCENES.map((scene) => (
@@ -467,7 +499,7 @@ export function Resort360() {
                   type="button"
                   className={`tour-scene ${scene.id === activeId ? "active" : ""}`}
                   key={scene.id}
-                  onClick={() => selectScene(scene)}
+                  onClick={(e) => selectScene(scene, e)}
                   aria-pressed={scene.id === activeId}
                 >
                   <img src={scene.thumbnail} alt="" />
