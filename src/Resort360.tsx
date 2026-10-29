@@ -138,11 +138,28 @@ const sceneById = new Map<SceneId, Scene>(SCENES.map((scene) => [scene.id, scene
 
 function ExpandIcon({ size = 18 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M8 3H3v5" /><path d="m3 3 6 6" />
       <path d="M16 3h5v5" /><path d="m21 3-6 6" />
       <path d="M8 21H3v-5" /><path d="m3 21 6-6" />
       <path d="M16 21h5v-5" /><path d="m21 21-6-6" />
+    </svg>
+  );
+}
+
+function PlusIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </svg>
+  );
+}
+
+function MinusIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <line x1="5" y1="12" x2="19" y2="12" />
     </svg>
   );
 }
@@ -159,9 +176,11 @@ function CompassIcon({ size = 18 }: { size?: number }) {
 export function Resort360() {
   const viewerElementRef = useRef<HTMLDivElement | null>(null);
   const shellRef = useRef<HTMLDivElement | null>(null);
+  const viewerRef = useRef<Viewer | null>(null);
   const tourRef = useRef<VirtualTourPlugin | null>(null);
   const [activeId, setActiveId] = useState<SceneId>("beachfront");
   const [fullscreen, setFullscreen] = useState(false);
+  const [isFullView, setIsFullView] = useState(false);
   const activeScene = sceneById.get(activeId) ?? SCENES[0];
 
   const nodes = useMemo<VirtualTourNode[]>(() => SCENES.map((scene) => ({
@@ -192,7 +211,8 @@ export function Resort360() {
         defaultZoomLvl: 48,
         minFov: 35,
         maxFov: 95,
-        mousewheel: true,
+        mousewheel: false, // Prevents wheel scroll hijacking in page flow
+        mousewheelCtrlKey: true, // Allows Ctrl + scroll zoom if desired
         touchmoveTwoFingers: false,
         navbar: false,
         plugins: [
@@ -218,6 +238,8 @@ export function Resort360() {
         ],
       });
 
+      viewerRef.current = viewer;
+
       const tour = viewer.getPlugin(VirtualTourPlugin) as VirtualTourPlugin;
       tourRef.current = tour;
       tour.addEventListener("node-changed", (event: { node: VirtualTourNode }) => {
@@ -228,15 +250,42 @@ export function Resort360() {
     return () => {
       disposed = true;
       window.clearTimeout(timer);
+      viewerRef.current = null;
       tourRef.current = null;
       viewer?.destroy();
     };
   }, [nodes]);
 
   useEffect(() => {
-    const onFullscreen = () => setFullscreen(document.fullscreenElement === shellRef.current);
+    const onFullscreen = () => {
+      const isFs = document.fullscreenElement === shellRef.current;
+      setFullscreen(isFs);
+      // In fullscreen mode, enable mousewheel zoom directly since page scrolling is absent
+      viewerRef.current?.setOption("mousewheel", isFs);
+    };
     document.addEventListener("fullscreenchange", onFullscreen);
     return () => document.removeEventListener("fullscreenchange", onFullscreen);
+  }, []);
+
+  // Sync isFullView state based on scroll proximity to full view
+  useEffect(() => {
+    const checkFullView = () => {
+      if (!shellRef.current) return;
+      const rect = shellRef.current.getBoundingClientRect();
+      const inFull = rect.top <= 65 && rect.bottom >= window.innerHeight * 0.65;
+      setIsFullView(inFull);
+    };
+
+    checkFullView();
+    window.addEventListener("scroll", checkFullView, { passive: true });
+
+    const lenis = (window as unknown as { __lenis?: { on: (event: string, cb: () => void) => void; off: (event: string, cb: () => void) => void } }).__lenis;
+    lenis?.on("scroll", checkFullView);
+
+    return () => {
+      window.removeEventListener("scroll", checkFullView);
+      lenis?.off("scroll", checkFullView);
+    };
   }, []);
 
   const selectScene = (scene: Scene) => {
@@ -255,8 +304,16 @@ export function Resort360() {
     else await shellRef.current.requestFullscreen();
   };
 
+  const zoomIn = () => {
+    viewerRef.current?.zoomIn(12);
+  };
+
+  const zoomOut = () => {
+    viewerRef.current?.zoomOut(12);
+  };
+
   return (
-    <section id="explore-360" className="tour-section">
+    <section className="tour-section">
       <div className="tour-heading section-space">
         <div>
           <div className="section-label">360 EXPLORATION</div>
@@ -264,42 +321,92 @@ export function Resort360() {
         </div>
         <div className="tour-heading-copy">
           <p>Discover the beach, rooms and gathering spaces. Use the floor arrows or scene rail to move between spaces.</p>
+          <button
+            type="button"
+            className="text-link tour-jump-btn"
+            onClick={() => {
+              const target = shellRef.current;
+              if (!target) return;
+              const lenis = (window as unknown as { __lenis?: { scrollTo: (el: HTMLElement, opts: object) => void } }).__lenis;
+              if (lenis) {
+                lenis.scrollTo(target, { offset: 0, duration: 0.9 });
+              } else {
+                target.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            Snap to 360 Full View <ExpandIcon size={14} />
+          </button>
         </div>
       </div>
 
-      <div className={`tour-shell ${fullscreen ? "is-fullscreen" : ""}`} ref={shellRef}>
-        <div className="tour-viewer" ref={viewerElementRef} aria-label={`360 view: ${activeScene.name}`} />
-        <div className="tour-vignette" aria-hidden="true" />
+      <div className={`tour-stage ${isFullView ? "is-fullview-stage" : ""}`}>
+        <div
+          id="explore-360"
+          className={`tour-shell ${isFullView ? "is-fullview" : ""} ${fullscreen ? "is-fullscreen" : ""}`}
+          ref={shellRef}
+          data-snap-tour
+        >
+          <div className="tour-viewer" ref={viewerElementRef} aria-label={`360 view: ${activeScene.name}`} />
+          <div className="tour-vignette" aria-hidden="true" />
 
-        <div className="tour-overlay">
-          <div className="tour-current">
-            <span>{activeScene.index} / 08</span>
-            <p>{activeScene.eyebrow}</p>
-            <h3>{activeScene.name}</h3>
-            <div>{activeScene.description}</div>
+          <div className="tour-overlay">
+            <div className="tour-current">
+              <span>{activeScene.index} / 08</span>
+              <p>{activeScene.eyebrow}</p>
+              <h3>{activeScene.name}</h3>
+              <div>{activeScene.description}</div>
+            </div>
+            <div className="tour-actions">
+              <div className="tour-zoom-group" aria-label="Zoom controls">
+                <button
+                  className="tour-zoom-btn"
+                  type="button"
+                  onClick={zoomIn}
+                  aria-label="Zoom in 360 view"
+                  title="Zoom in"
+                >
+                  <PlusIcon size={16} />
+                </button>
+                <button
+                  className="tour-zoom-btn"
+                  type="button"
+                  onClick={zoomOut}
+                  aria-label="Zoom out 360 view"
+                  title="Zoom out"
+                >
+                  <MinusIcon size={16} />
+                </button>
+              </div>
+              <button
+                className="tour-expand"
+                type="button"
+                onClick={() => void toggleFullscreen()}
+                aria-label={fullscreen ? "Exit full screen 360 view" : "Open full screen 360 view"}
+              >
+                <ExpandIcon size={18} />
+                <span>{fullscreen ? "EXIT FULL SCREEN" : "FULL SCREEN"}</span>
+              </button>
+            </div>
           </div>
-          <button className="tour-expand" type="button" onClick={() => void toggleFullscreen()} aria-label={fullscreen ? "Exit full screen 360 view" : "Open full screen 360 view"}>
-            <ExpandIcon size={18} />
-            <span>{fullscreen ? "EXIT FULL SCREEN" : "FULL SCREEN"}</span>
-          </button>
-        </div>
 
-        <div className="tour-instruction"><CompassIcon size={16} /><span>Drag to look around · select an arrow to move</span></div>
+          <div className="tour-instruction"><CompassIcon size={16} /><span>Drag to look around · select an arrow to move</span></div>
 
-        <div className="tour-rail" aria-label="360 resort scenes">
-          {SCENES.map((scene) => (
-            <button
-              type="button"
-              className={`tour-scene ${scene.id === activeId ? "active" : ""}`}
-              key={scene.id}
-              onClick={() => selectScene(scene)}
-              aria-pressed={scene.id === activeId}
-            >
-              <img src={scene.thumbnail} alt="" />
-              <span>{scene.index}</span>
-              <strong>{scene.name}</strong>
-            </button>
-          ))}
+          <div className="tour-rail" aria-label="360 resort scenes">
+            {SCENES.map((scene) => (
+              <button
+                type="button"
+                className={`tour-scene ${scene.id === activeId ? "active" : ""}`}
+                key={scene.id}
+                onClick={() => selectScene(scene)}
+                aria-pressed={scene.id === activeId}
+              >
+                <img src={scene.thumbnail} alt="" />
+                <span>{scene.index}</span>
+                <strong>{scene.name}</strong>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </section>
